@@ -1,6 +1,6 @@
 # Add and Search Word
 
-- **LeetCode:** [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/add-and-search-word-data-structure-design/)
+- **LeetCode:** [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
 - **NeetCode 練習:** [Blind 75](https://neetcode.io/problems?list=blind75)
 
 ## 題意

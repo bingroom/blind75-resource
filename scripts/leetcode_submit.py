@@ -7,7 +7,69 @@ import re
 import sys
 import time
 import urllib.request
-import urllib.error
+
+from html.parser import HTMLParser
+
+class LeetCodeHTMLParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.result = []
+        self.in_pre = False
+
+    def handle_starttag(self, tag, attrs):
+        if tag == 'pre':
+            self.in_pre = True
+            self.result.append('\n```\n')
+            return
+        
+        if self.in_pre:
+            return
+
+        if tag in ['strong', 'b']:
+            self.result.append('**')
+        elif tag in ['em', 'i']:
+            self.result.append('*')
+        elif tag == 'code':
+            self.result.append('`')
+        elif tag == 'sup':
+            self.result.append('^')
+        elif tag == 'sub':
+            self.result.append('_')
+        elif tag == 'li':
+            self.result.append('- ')
+        elif tag == 'p':
+            self.result.append('\n\n')
+        elif tag == 'br':
+            self.result.append('\n')
+        elif tag == 'img':
+            src = dict(attrs).get('src')
+            if src:
+                self.result.append(f"\n![]({src})\n")
+    
+    def handle_endtag(self, tag):
+        if tag == 'pre':
+            self.in_pre = False
+            self.result.append('\n```\n')
+            return
+        
+        if self.in_pre:
+            return
+
+        if tag in ['strong', 'b']:
+            self.result.append('**')
+        elif tag in ['em', 'i']:
+            self.result.append('*')
+        elif tag == 'code':
+            self.result.append('`')
+        elif tag == 'li':
+            self.result.append('\n')
+
+    def handle_data(self, data):
+        self.result.append(data)
+    
+    def get_markdown(self):
+        return "".join(self.result).strip()
+
 
 LEETCODE_BASE = "https://leetcode.com"
 GRAPHQL_URL = f"{LEETCODE_BASE}/graphql"
@@ -19,9 +81,93 @@ query getQuestionDetail($titleSlug: String!) {
     questionId
     titleSlug
     title
+    content
   }
 }
 """
+
+
+def html_to_markdown(html_content: str) -> str:
+    """Simple HTML to Markdown converter for LeetCode descriptions."""
+    if not html_content:
+        return ""
+    
+    parser = LeetCodeHTMLParser()
+    parser.feed(html_content)
+    text = parser.get_markdown()
+    
+    # Post-processing cleanups
+    text = re.sub(r'\n{3,}', '\n\n', text)
+    return text
+
+
+def update_readme(solution_path: str, problem_data: dict, code: str, is_ac: bool):
+    """
+    Update the README.md in the solution directory.
+    Structure:
+    # Title
+    [Links]
+    
+    ## Description
+    [Content from LeetCode]
+    
+    ## Solution
+    ```python
+    [Code]
+    ```
+    
+    ## Approach (Preserved)
+    ...
+    ## Complexity (Preserved)
+    ...
+    """
+    readme_path = os.path.join(os.path.dirname(solution_path), "README.md")
+    
+    # Default content if file doesn't exist
+    if os.path.exists(readme_path):
+        with open(readme_path, "r", encoding="utf-8") as f:
+            old_content = f.read()
+    else:
+        old_content = ""
+
+    # Parse existing sections we want to preserve
+    # We look for "## 思路" (Approach) and everything after it, or "## Complexity" etc.
+    match = re.search(r'(## (思路|Approach)[\s\S]*)', old_content)
+    preserved_content = ""
+    if match:
+        preserved_content = match.group(1)
+
+    # Basic Info
+    title = problem_data.get("title", "Problem")
+    question_id = problem_data.get("questionId", "?")
+    slug = problem_data.get("titleSlug", "")
+    description_md = html_to_markdown(problem_data.get("content", ""))
+    
+    link_leetcode = f"https://leetcode.com/problems/{slug}/"
+    link_neetcode = "https://neetcode.io/problems?list=blind75"
+    
+    new_content = f"# {title}\n\n"
+    new_content += f"- **LeetCode:** [{question_id}. {title}]({link_leetcode})\n"
+    new_content += f"- **NeetCode:** [Blind 75]({link_neetcode})\n\n"
+    
+    new_content += "## Description\n\n"
+    new_content += description_md + "\n\n"
+    
+    if is_ac and code:
+        new_content += "## Solution\n\n"
+        new_content += "```python\n"
+        new_content += code + "\n"
+        new_content += "```\n\n"
+        
+    if preserved_content:
+        new_content += preserved_content
+    elif not match and old_content:
+        # If we couldn't parse sections but there was content, try to find relevant parts or just append
+        pass
+        
+    with open(readme_path, "w", encoding="utf-8") as f:
+        f.write(new_content)
+    print(f"Updated README: {readme_path}")
 
 
 def get_credentials():
@@ -62,22 +208,8 @@ def _request(url: str, method: str, headers: dict, data: dict = None) -> dict:
         headers={**headers, "Accept": "application/json"},
         method=method,
     )
-    try:
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            return json.loads(resp.read().decode())
-    except urllib.error.HTTPError as e:
-        err_body = e.read().decode() if e.fp else ""
-        if e.code == 429:  # Too Many Requests：等待後重試一次
-            time.sleep(15)
-            req2 = urllib.request.Request(
-                url,
-                data=body,
-                headers={**headers, "Accept": "application/json"},
-                method=method,
-            )
-            with urllib.request.urlopen(req2, timeout=20) as resp2:
-                return json.loads(resp2.read().decode())
-        raise RuntimeError(f"HTTP {e.code}: {e.reason} | {err_body[:500]}") from e
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        return json.loads(resp.read().decode())
 
 
 def get_problem_detail(title_slug: str, session: str, csrf: str) -> dict:
@@ -149,6 +281,11 @@ def main():
         action="store_true",
         help="只列印會提交的資訊，不實際提交（仍需要 cookie 取得題目詳情）",
     )
+    parser.add_argument(
+        "--update-readme",
+        action="store_true",
+        help="是否更新 README.md (加入題目描述與 Code)",
+    )
     args = parser.parse_args()
 
     solution_path = args.solution_file
@@ -169,46 +306,58 @@ def main():
     title = problem.get("title", slug)
     print(f"題目: {title} (questionId={question_id})")
 
+    is_ac = False
+    
     if args.dry_run:
         print("--dry-run: 不提交")
-        return
+    else:
+        print("提交中...")
+        submission_id = submit_solution(slug, question_id, code, args.lang, session, csrf)
+        print(f"submission_id: {submission_id}，等待判題...")
+        result = check_submission(submission_id, session, csrf)
 
-    print("提交中...")
-    submission_id = submit_solution(slug, question_id, code, args.lang, session, csrf)
-    print(f"submission_id: {submission_id}，等待判題...")
-    result = check_submission(submission_id, session, csrf)
+        status = result.get("status_msg", "Unknown")
+        print(f"結果: {status}")
+        
+        if status == "Accepted":
+            is_ac = True
+            # 紀錄 AC 的 time / space 到題目資料夾
+            ac_record = {
+                "status": "Accepted",
+                "run_time": result.get("run_time"),
+                "memory": result.get("memory"),
+                "runtime_percentile": result.get("runtime_percentile"),
+                "memory_percentile": result.get("memory_percentile"),
+                "submission_id": submission_id,
+                "checked_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+            }
+            out_dir = os.path.dirname(os.path.abspath(solution_path))
+            rank_file = os.path.join(out_dir, "AC_result.json")
+            with open(rank_file, "w", encoding="utf-8") as f:
+                json.dump(ac_record, f, indent=2, ensure_ascii=False)
+            print(f"已寫入: {rank_file}")
+            
+        if result.get("full_runtime_error"):
+            print(result["full_runtime_error"])
+        if result.get("full_compile_error"):
+            print(result["full_compile_error"])
+        if result.get("test_failed"):
+            print("失敗測資:", result.get("input", ""))
+            
+    if args.update_readme:
+        ac_result_path = os.path.join(os.path.dirname(solution_path), "AC_result.json")
+        if not is_ac and os.path.exists(ac_result_path):
+             try:
+                 with open(ac_result_path, "r") as f:
+                     if json.load(f).get("status") == "Accepted":
+                         is_ac = True
+             except:
+                 pass
 
-    status = result.get("status_msg", "Unknown")
-    if status == "Accepted":
-        print("結果: AC (Accepted)")
-        # 紀錄 AC 的 time / space 排名到題目資料夾
-        ac_record = {
-            "status": "Accepted",
-            "run_time": result.get("run_time"),
-            "memory": result.get("memory"),
-            "runtime_percentile": result.get("runtime_percentile"),
-            "memory_percentile": result.get("memory_percentile"),
-            "submission_id": submission_id,
-            "checked_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-        }
-        out_dir = os.path.dirname(os.path.abspath(solution_path))
-        rank_file = os.path.join(out_dir, "AC_result.json")
-        with open(rank_file, "w", encoding="utf-8") as f:
-            json.dump(ac_record, f, indent=2, ensure_ascii=False)
-        print(f"已寫入: {rank_file}")
-        if result.get("run_time"):
-            print(f"  run_time: {result['run_time']}")
-        if result.get("memory"):
-            print(f"  memory: {result['memory']}")
-        sys.exit(0)
-    print(f"結果: {status}")
-    if result.get("full_runtime_error"):
-        print(result["full_runtime_error"])
-    if result.get("full_compile_error"):
-        print(result["full_compile_error"])
-    if result.get("test_failed"):
-        print("失敗測資:", result.get("input", ""))
-    sys.exit(1)
+        update_readme(solution_path, problem, code, is_ac)
+
+    if not args.dry_run and not is_ac:
+        sys.exit(1)
 
 
 if __name__ == "__main__":

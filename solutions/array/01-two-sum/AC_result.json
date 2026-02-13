@@ -1,9 +1,9 @@
 {
   "status": "Accepted",
   "run_time": null,
-  "memory": 20728000,
-  "runtime_percentile": 100,
-  "memory_percentile": 5.591199999999997,
-  "submission_id": "1918297369",
-  "checked_at": "2026-02-13T18:11:43Z"
+  "memory": 20684000,
+  "runtime_percentile": 40.64960000000001,
+  "memory_percentile": 13.785999999999998,
+  "submission_id": "1918342406",
+  "checked_at": "2026-02-13T18:59:56Z"
 }

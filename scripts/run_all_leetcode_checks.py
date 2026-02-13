@@ -16,8 +16,10 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(SCRIPT_DIR)
 SOLUTIONS_DIR = os.path.join(ROOT, "solutions")
 
-# 路徑（相對於 solutions/）-> LeetCode 題目 slug 覆寫（若資料夾名與 LeetCode 不一致）
-SLUG_OVERRIDES = {}
+# 路徑（相對於專案 ROOT）-> LeetCode 題目 slug 覆寫（若資料夾名與 LeetCode 不一致）
+SLUG_OVERRIDES = {
+    "solutions/tree/13-add-and-search-word-data-structure-design": "design-add-and-search-words-data-structure",
+}
 
 
 def slug_from_path(rel_path: str) -> str:

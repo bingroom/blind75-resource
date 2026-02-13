@@ -52,3 +52,5 @@ python3 scripts/run_all_leetcode_checks.py --resume
 ```
 
 建議：若中途因 rate limit 失敗，可稍後再執行一次 `--resume` 補跑剩餘題目。
+
+**若出現 HTTP 403 Forbidden**：多為 Cookie 過期或 LeetCode 阻擋。請重新登入 [leetcode.com](https://leetcode.com)，從開發者工具複製最新的 `LEETCODE_SESSION` 與 `csrftoken` 再執行。
