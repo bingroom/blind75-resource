@@ -1,11 +1,78 @@
 # Longest Consecutive Sequence
 
 - **LeetCode:** [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
-- **NeetCode 練習:** [Blind 75](https://neetcode.io/problems?list=blind75)
+- **NeetCode:** [Blind 75](https://neetcode.io/problems?list=blind75)
 
-## 題意
+## Description
 
-在未排序整數陣列中，求最長**連續數字**序列的長度（例如 3,1,2,4 → 長度 4）。
+Given an unsorted array of integers `nums`, return *the length of the longest consecutive elements sequence.*
+
+You must write an algorithm that runs in `O(n)` time.
+
+ 
+
+**Example 1:**
+
+```
+
+Input: nums = [100,4,200,1,3,2]
+Output: 4
+Explanation: The longest consecutive elements sequence is [1, 2, 3, 4]. Therefore its length is 4.
+
+```
+
+**Example 2:**
+
+```
+
+Input: nums = [0,3,7,2,5,8,4,6,0,1]
+Output: 9
+
+```
+
+**Example 3:**
+
+```
+
+Input: nums = [1,0,1,2]
+Output: 3
+
+```
+
+ 
+
+**Constraints:**
+
+	- `0 <= nums.length <= 10^5`
+
+	- `-10^9 <= nums[i] <= 10^9`
+
+## Solution
+
+```python
+# LeetCode 128. Longest Consecutive Sequence
+# 時間複雜度: O(n)  空間複雜度: O(n)
+# 可整段複製至 NeetCode / LeetCode 提交以確認 AC
+
+from typing import List
+
+
+class Solution:
+    def longestConsecutive(self, nums: List[int]) -> int:
+        """
+        求未排序陣列中最長連續數字序列的長度（如 1,2,3,4）。用 set 存所有數，只從「序列起點」開始數長度。
+        """
+        s = set(nums)
+        best = 0
+        for x in s:
+            if x - 1 not in s:
+                cur = x
+                while cur in s:
+                    cur += 1
+                best = max(best, cur - x)
+        return best
+
+```
 
 ## 思路
 

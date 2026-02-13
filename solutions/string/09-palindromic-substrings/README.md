@@ -1,11 +1,74 @@
 # Palindromic Substrings
 
 - **LeetCode:** [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
-- **NeetCode 練習:** [Blind 75](https://neetcode.io/problems?list=blind75)
+- **NeetCode:** [Blind 75](https://neetcode.io/problems?list=blind75)
 
-## 題意
+## Description
 
-計算字串中「迴文子字串」的總個數（相同字元不同位置算不同子字串）。
+Given a string `s`, return *the number of **palindromic substrings** in it*.
+
+A string is a **palindrome** when it reads the same backward as forward.
+
+A **substring** is a contiguous sequence of characters within the string.
+
+ 
+
+**Example 1:**
+
+```
+
+Input: s = "abc"
+Output: 3
+Explanation: Three palindromic strings: "a", "b", "c".
+
+```
+
+**Example 2:**
+
+```
+
+Input: s = "aaa"
+Output: 6
+Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
+
+```
+
+ 
+
+**Constraints:**
+
+	- `1 <= s.length <= 1000`
+
+	- `s` consists of lowercase English letters.
+
+## Solution
+
+```python
+# LeetCode 647. Palindromic Substrings
+# 時間複雜度: O(n²)  空間複雜度: O(1)
+# 可整段複製至 NeetCode / LeetCode 提交以確認 AC
+
+class Solution:
+    def countSubstrings(self, s: str) -> int:
+        """
+        計算迴文子字串的個數。以每個位置為中心向外擴展，每擴展成功一次就多一個迴文。
+        """
+        n = len(s)
+        count = 0
+
+        def expand(l: int, r: int) -> None:
+            nonlocal count
+            while l >= 0 and r < n and s[l] == s[r]:
+                count += 1
+                l -= 1
+                r += 1
+
+        for i in range(n):
+            expand(i, i)
+            expand(i, i + 1)
+        return count
+
+```
 
 ## 思路
 

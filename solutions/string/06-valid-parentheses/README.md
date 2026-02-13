@@ -1,11 +1,84 @@
 # Valid Parentheses
 
 - **LeetCode:** [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
-- **NeetCode 練習:** [Blind 75](https://neetcode.io/problems?list=blind75)
+- **NeetCode:** [Blind 75](https://neetcode.io/problems?list=blind75)
 
-## 題意
+## Description
 
-判斷字串是否為合法的括號配對（僅含 `()[]{}`，且左右正確對應、巢狀正確）。
+Given a string `s` containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.
+
+An input string is valid if:
+
+	- Open brackets must be closed by the same type of brackets.
+
+	- Open brackets must be closed in the correct order.
+
+	- Every close bracket has a corresponding open bracket of the same type.
+
+ 
+
+**Example 1:**
+
+**Input:** s = "()"
+
+**Output:** true
+
+**Example 2:**
+
+**Input:** s = "()[]{}"
+
+**Output:** true
+
+**Example 3:**
+
+**Input:** s = "(]"
+
+**Output:** false
+
+**Example 4:**
+
+**Input:** s = "([])"
+
+**Output:** true
+
+**Example 5:**
+
+**Input:** s = "([)]"
+
+**Output:** false
+
+ 
+
+**Constraints:**
+
+	- `1 <= s.length <= 10^4`
+
+	- `s` consists of parentheses only `'()[]{}'`.
+
+## Solution
+
+```python
+# LeetCode 20. Valid Parentheses
+# 時間複雜度: O(n)  空間複雜度: O(n)
+# 可整段複製至 NeetCode / LeetCode 提交以確認 AC
+
+class Solution:
+    def isValid(self, s: str) -> bool:
+        """
+        判斷括號是否正確配對。用 stack：左括號 push，右括號 pop 並檢查是否對應。
+        """
+        stack = []
+        pair = {")": "(", "]": "[", "}": "{"}
+        for c in s:
+            if c in pair:
+                if not stack or stack[-1] != pair[c]:
+                    return False
+                stack.pop()
+            else:
+                stack.append(c)
+        return len(stack) == 0
+
+```
 
 ## 思路
 
