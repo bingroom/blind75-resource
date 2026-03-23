@@ -1,49 +1,20 @@
 # Palindromic Substrings
 
-**Topic:** String
+**Topic:** Unknown
+- **LeetCode 連結:** [0. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
+- **難度:** Medium
 
-- **LeetCode:** [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
-- **NeetCode:** [Blind 75](https://neetcode.io/problems?list=blind75)
+## 題目描述
 
-## Description
+給定一個字串，計算其中迴文子字串的總數。
 
-Given a string `s`, return *the number of **palindromic substrings** in it*.
+## 解題思路
 
-A string is a **palindrome** when it reads the same backward as forward.
+1. 以每個位置為中心，向兩側擴展尋找迴文。
+2. 分別處理奇數長度（單字元中心）和偶數長度（雙字元中心）。
+3. 每次成功擴展（兩端字元相同），計數加 1。
 
-A **substring** is a contiguous sequence of characters within the string.
-
- 
-
-**Example 1:**
-
-```
-
-Input: s = "abc"
-Output: 3
-Explanation: Three palindromic strings: "a", "b", "c".
-
-```
-
-**Example 2:**
-
-```
-
-Input: s = "aaa"
-Output: 6
-Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
-
-```
-
- 
-
-**Constraints:**
-
-	- `1 <= s.length <= 1000`
-
-	- `s` consists of lowercase English letters.
-
-## Solution
+## 程式碼
 
 ```python
 # LeetCode 647. Palindromic Substrings
@@ -69,18 +40,9 @@ class Solution:
             expand(i, i)
             expand(i, i + 1)
         return count
-
 ```
 
-## 思路
+## 複雜度分析
 
-- **中心擴展：** 與「最長迴文子字串」相同，以每個位置為奇/偶中心向外擴展，每成功擴展一格就多一個迴文，累加 count。
-
-## 時間 / 空間複雜度
-
-- **時間:** O(n²)。
-- **空間:** O(1)。
-
-## 相關閱讀
-
-- **演算法:** Expand Around Center
+- **時間複雜度:** O(n²)。
+- **空間複雜度:** O(1)。

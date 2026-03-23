@@ -1,39 +1,21 @@
 # Sum of Two Integers
 
-**Topic:** Bit Manipulation
+**Topic:** Unknown
+- **LeetCode 連結:** [0. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
+- **難度:** Medium
 
-- **LeetCode:** [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
-- **NeetCode:** [Blind 75](https://neetcode.io/problems?list=blind75)
+## 題目描述
 
-## Description
+不使用加減運算子，計算兩個整數的和。
 
-Given two integers `a` and `b`, return *the sum of the two integers without using the operators* `+` *and* `-`.
+## 解題思路
 
- 
+1. 使用 XOR 計算「無進位和」。
+2. 使用 AND 再左移一位計算「進位」。
+3. 重複以上步驟直到進位為 0。
+4. Python 需用 32 位遮罩處理無限位元的問題。
 
-**Example 1:**
-
-```
-Input: a = 1, b = 2
-Output: 3
-
-```
-
-**Example 2:**
-
-```
-Input: a = 2, b = 3
-Output: 5
-
-```
-
- 
-
-**Constraints:**
-
-	- `-1000 <= a, b <= 1000`
-
-## Solution
+## 程式碼
 
 ```python
 # LeetCode 371. Sum of Two Integers (不用 + - 做加法)
@@ -54,18 +36,9 @@ class Solution:
             a = (a ^ b) & MASK
             b = carry & MASK
         return a if a <= MAX else ~(a ^ MASK)
-
 ```
 
-## 思路
+## 複雜度分析
 
-- **位元運算：** `a ^ b` = 無進位和，`(a & b) << 1` = 進位。重複：新 a = 無進位和，新 b = 進位，直到 b 為 0。Python 整數為任意精度，需用 32 位遮罩與補數處理負數。
-
-## 時間 / 空間複雜度
-
-- **時間:** O(1)（位元數固定）。
-- **空間:** O(1)。
-
-## 相關閱讀
-
-- **演算法:** Bit Manipulation、Full Adder、補數表示
+- **時間複雜度:** O(1)（位元數固定）。
+- **空間複雜度:** O(1)。

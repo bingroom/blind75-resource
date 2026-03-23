@@ -1,1225 +1,1742 @@
-{
-  "title": "Grind 169 LeetCode Study Guide",
-  "source": "https://www.techinterviewhandbook.org/grind75",
-  "total_problems": 174,
-  "problems": [
-    {
-      "folder": "Extra.House Robber II",
-      "name": "House Robber II",
-      "topic": "Dynamic Programming",
-      "week": 99,
-      "number": 0
-    },
-    {
-      "folder": "Extra.Longest Common Subsequence",
-      "name": "Longest Common Subsequence",
-      "topic": "Dynamic Programming",
-      "week": 99,
-      "number": 0
-    },
-    {
-      "folder": "Extra.Palindromic Substrings",
-      "name": "Palindromic Substrings",
-      "topic": "String",
-      "week": 99,
-      "number": 0
-    },
-    {
-      "folder": "Extra.Sum of Two Integers",
-      "name": "Sum of Two Integers",
-      "topic": "Bit Manipulation",
-      "week": 99,
-      "number": 0
-    },
-    {
-      "folder": "Extra.Top K Frequent Elements",
-      "name": "Top K Frequent Elements",
-      "topic": "Sorting",
-      "week": 99,
-      "number": 0
-    },
-    {
-      "folder": "Week01-01. Two Sum",
-      "name": "Two Sum",
-      "topic": "Array",
-      "week": 1,
-      "number": 1
-    },
-    {
-      "folder": "Week01-02. Valid Parentheses",
-      "name": "Valid Parentheses",
-      "topic": "Stack",
-      "week": 1,
-      "number": 2
-    },
-    {
-      "folder": "Week01-03. Merge Two Sorted Lists",
-      "name": "Merge Two Sorted Lists",
-      "topic": "Linked List",
-      "week": 1,
-      "number": 3
-    },
-    {
-      "folder": "Week01-04. Climbing Stairs",
-      "name": "Climbing Stairs",
-      "topic": "Dynamic Programming",
-      "week": 1,
-      "number": 4
-    },
-    {
-      "folder": "Week01-05. Balanced Binary Tree",
-      "name": "Balanced Binary Tree",
-      "topic": "Tree",
-      "week": 1,
-      "number": 5
-    },
-    {
-      "folder": "Week01-06. Best Time to Buy and Sell Stock",
-      "name": "Best Time to Buy and Sell Stock",
-      "topic": "Array",
-      "week": 1,
-      "number": 6
-    },
-    {
-      "folder": "Week01-07. Valid Palindrome",
-      "name": "Valid Palindrome",
-      "topic": "String",
-      "week": 1,
-      "number": 7
-    },
-    {
-      "folder": "Week01-08. Linked List Cycle",
-      "name": "Linked List Cycle",
-      "topic": "Linked List",
-      "week": 1,
-      "number": 8
-    },
-    {
-      "folder": "Week01-09. Invert Binary Tree",
-      "name": "Invert Binary Tree",
-      "topic": "Tree",
-      "week": 1,
-      "number": 9
-    },
-    {
-      "folder": "Week01-10. Implement Queue Using Stacks",
-      "name": "Implement Queue Using Stacks",
-      "topic": "Stack",
-      "week": 1,
-      "number": 10
-    },
-    {
-      "folder": "Week01-11. Valid Anagram",
-      "name": "Valid Anagram",
-      "topic": "Hashing",
-      "week": 1,
-      "number": 11
-    },
-    {
-      "folder": "Week01-12. First Bad Version",
-      "name": "First Bad Version",
-      "topic": "Binary Search",
-      "week": 1,
-      "number": 12
-    },
-    {
-      "folder": "Week01-13. Ransom Note",
-      "name": "Ransom Note",
-      "topic": "Hashing",
-      "week": 1,
-      "number": 13
-    },
-    {
-      "folder": "Week01-14. Longest Palindrome",
-      "name": "Longest Palindrome",
-      "topic": "String",
-      "week": 1,
-      "number": 14
-    },
-    {
-      "folder": "Week01-15. Binary Search",
-      "name": "Binary Search",
-      "topic": "Binary Search",
-      "week": 1,
-      "number": 15
-    },
-    {
-      "folder": "Week01-16. Flood Fill",
-      "name": "Flood Fill",
-      "topic": "Graph",
-      "week": 1,
-      "number": 16
-    },
-    {
-      "folder": "Week01-17. Lowest Common Ancestor of BST",
-      "name": "Lowest Common Ancestor of BST",
-      "topic": "Tree",
-      "week": 1,
-      "number": 17
-    },
-    {
-      "folder": "Week02-01. Roman to Integer",
-      "name": "Roman to Integer",
-      "topic": "String",
-      "week": 2,
-      "number": 1
-    },
-    {
-      "folder": "Week02-02. Longest Common Prefix",
-      "name": "Longest Common Prefix",
-      "topic": "String",
-      "week": 2,
-      "number": 2
-    },
-    {
-      "folder": "Week02-03. Add Binary",
-      "name": "Add Binary",
-      "topic": "String",
-      "week": 2,
-      "number": 3
-    },
-    {
-      "folder": "Week02-04. Same Tree",
-      "name": "Same Tree",
-      "topic": "Tree",
-      "week": 2,
-      "number": 4
-    },
-    {
-      "folder": "Week02-05. Maximum Depth of Binary Tree",
-      "name": "Maximum Depth of Binary Tree",
-      "topic": "Tree",
-      "week": 2,
-      "number": 5
-    },
-    {
-      "folder": "Week02-06. Single Number",
-      "name": "Single Number",
-      "topic": "Bit Manipulation",
-      "week": 2,
-      "number": 6
-    },
-    {
-      "folder": "Week02-07. Majority Element",
-      "name": "Majority Element",
-      "topic": "Array",
-      "week": 2,
-      "number": 7
-    },
-    {
-      "folder": "Week02-08. Number of 1 Bits",
-      "name": "Number of 1 Bits",
-      "topic": "Bit Manipulation",
-      "week": 2,
-      "number": 8
-    },
-    {
-      "folder": "Week02-09. Reverse Linked List",
-      "name": "Reverse Linked List",
-      "topic": "Linked List",
-      "week": 2,
-      "number": 9
-    },
-    {
-      "folder": "Week02-10. Contains Duplicate",
-      "name": "Contains Duplicate",
-      "topic": "Hashing",
-      "week": 2,
-      "number": 10
-    },
-    {
-      "folder": "Week02-11. Palindrome Linked List",
-      "name": "Palindrome Linked List",
-      "topic": "Linked List",
-      "week": 2,
-      "number": 11
-    },
-    {
-      "folder": "Week02-12. Meeting Rooms",
-      "name": "Meeting Rooms",
-      "topic": "Sorting",
-      "week": 2,
-      "number": 12
-    },
-    {
-      "folder": "Week02-13. Counting Bits",
-      "name": "Counting Bits",
-      "topic": "Bit Manipulation",
-      "week": 2,
-      "number": 13
-    },
-    {
-      "folder": "Week02-14. Diameter of Binary Tree",
-      "name": "Diameter of Binary Tree",
-      "topic": "Tree",
-      "week": 2,
-      "number": 14
-    },
-    {
-      "folder": "Week02-15. Backspace String Compare",
-      "name": "Backspace String Compare",
-      "topic": "String",
-      "week": 2,
-      "number": 15
-    },
-    {
-      "folder": "Week02-16. Middle of the Linked List",
-      "name": "Middle of the Linked List",
-      "topic": "Linked List",
-      "week": 2,
-      "number": 16
-    },
-    {
-      "folder": "Week03-01. Palindrome Number",
-      "name": "Palindrome Number",
-      "topic": "String",
-      "week": 3,
-      "number": 1
-    },
-    {
-      "folder": "Week03-02. Symmetric Tree",
-      "name": "Symmetric Tree",
-      "topic": "Tree",
-      "week": 3,
-      "number": 2
-    },
-    {
-      "folder": "Week03-03. Convert Sorted Array to BST",
-      "name": "Convert Sorted Array to BST",
-      "topic": "Tree",
-      "week": 3,
-      "number": 3
-    },
-    {
-      "folder": "Week03-04. Reverse Bits",
-      "name": "Reverse Bits",
-      "topic": "Bit Manipulation",
-      "week": 3,
-      "number": 4
-    },
-    {
-      "folder": "Week03-05. Missing Number",
-      "name": "Missing Number",
-      "topic": "Bit Manipulation",
-      "week": 3,
-      "number": 5
-    },
-    {
-      "folder": "Week03-06. Move Zeroes",
-      "name": "Move Zeroes",
-      "topic": "Array",
-      "week": 3,
-      "number": 6
-    },
-    {
-      "folder": "Week03-07. Subtree of Another Tree",
-      "name": "Subtree of Another Tree",
-      "topic": "Tree",
-      "week": 3,
-      "number": 7
-    },
-    {
-      "folder": "Week03-08. Squares of a Sorted Array",
-      "name": "Squares of a Sorted Array",
-      "topic": "Array",
-      "week": 3,
-      "number": 8
-    },
-    {
-      "folder": "Week03-09. Longest Substring Without Repeating Characters",
-      "name": "Longest Substring Without Repeating Characters",
-      "topic": "String",
-      "week": 3,
-      "number": 9
-    },
-    {
-      "folder": "Week03-10. Maximum Subarray",
-      "name": "Maximum Subarray",
-      "topic": "Array",
-      "week": 3,
-      "number": 10
-    },
-    {
-      "folder": "Week03-11. Insert Interval",
-      "name": "Insert Interval",
-      "topic": "Array",
-      "week": 3,
-      "number": 11
-    },
-    {
-      "folder": "Week03-12. 01 Matrix",
-      "name": "01 Matrix",
-      "topic": "Graph",
-      "week": 3,
-      "number": 12
-    },
-    {
-      "folder": "Week03-13. K Closest Points to Origin",
-      "name": "K Closest Points to Origin",
-      "topic": "Sorting",
-      "week": 3,
-      "number": 13
-    },
-    {
-      "folder": "Week04-01. 3Sum",
-      "name": "3Sum",
-      "topic": "Array",
-      "week": 4,
-      "number": 1
-    },
-    {
-      "folder": "Week04-02. Validate Binary Search Tree",
-      "name": "Validate Binary Search Tree",
-      "topic": "Tree",
-      "week": 4,
-      "number": 2
-    },
-    {
-      "folder": "Week04-03. Binary Tree Level Order Traversal",
-      "name": "Binary Tree Level Order Traversal",
-      "topic": "Tree",
-      "week": 4,
-      "number": 3
-    },
-    {
-      "folder": "Week04-04. Clone Graph",
-      "name": "Clone Graph",
-      "topic": "Graph",
-      "week": 4,
-      "number": 4
-    },
-    {
-      "folder": "Week04-05. Evaluate Reverse Polish Notation",
-      "name": "Evaluate Reverse Polish Notation",
-      "topic": "Stack",
-      "week": 4,
-      "number": 5
-    },
-    {
-      "folder": "Week04-06. Min Stack",
-      "name": "Min Stack",
-      "topic": "Stack",
-      "week": 4,
-      "number": 6
-    },
-    {
-      "folder": "Week04-07. Number of Islands",
-      "name": "Number of Islands",
-      "topic": "Graph",
-      "week": 4,
-      "number": 7
-    },
-    {
-      "folder": "Week04-08. Course Schedule",
-      "name": "Course Schedule",
-      "topic": "Graph",
-      "week": 4,
-      "number": 8
-    },
-    {
-      "folder": "Week04-09. Implement Trie Prefix Tree",
-      "name": "Implement Trie Prefix Tree",
-      "topic": "Tree",
-      "week": 4,
-      "number": 9
-    },
-    {
-      "folder": "Week04-10. Product of Array Except Self",
-      "name": "Product of Array Except Self",
-      "topic": "Array",
-      "week": 4,
-      "number": 10
-    },
-    {
-      "folder": "Week04-11. Coin Change",
-      "name": "Coin Change",
-      "topic": "Dynamic Programming",
-      "week": 4,
-      "number": 11
-    },
-    {
-      "folder": "Week05-01. Search in Rotated Sorted Array",
-      "name": "Search in Rotated Sorted Array",
-      "topic": "Array",
-      "week": 5,
-      "number": 1
-    },
-    {
-      "folder": "Week05-02. Combination Sum",
-      "name": "Combination Sum",
-      "topic": "Backtracking",
-      "week": 5,
-      "number": 2
-    },
-    {
-      "folder": "Week05-03. Permutations",
-      "name": "Permutations",
-      "topic": "Backtracking",
-      "week": 5,
-      "number": 3
-    },
-    {
-      "folder": "Week05-04. Merge Intervals",
-      "name": "Merge Intervals",
-      "topic": "Array",
-      "week": 5,
-      "number": 4
-    },
-    {
-      "folder": "Week05-05. Sort Colors",
-      "name": "Sort Colors",
-      "topic": "Sorting",
-      "week": 5,
-      "number": 5
-    },
-    {
-      "folder": "Week05-06. Word Break",
-      "name": "Word Break",
-      "topic": "Dynamic Programming",
-      "week": 5,
-      "number": 6
-    },
-    {
-      "folder": "Week05-07. Lowest Common Ancestor of a Binary Tree",
-      "name": "Lowest Common Ancestor of a Binary Tree",
-      "topic": "Tree",
-      "week": 5,
-      "number": 7
-    },
-    {
-      "folder": "Week05-08. Accounts Merge",
-      "name": "Accounts Merge",
-      "topic": "Graph",
-      "week": 5,
-      "number": 8
-    },
-    {
-      "folder": "Week05-09. Time Based Key Value Store",
-      "name": "Time Based Key Value Store",
-      "topic": "Binary Search",
-      "week": 5,
-      "number": 9
-    },
-    {
-      "folder": "Week05-10. Rotting Oranges",
-      "name": "Rotting Oranges",
-      "topic": "Graph",
-      "week": 5,
-      "number": 10
-    },
-    {
-      "folder": "Week06-01. Longest Palindromic Substring",
-      "name": "Longest Palindromic Substring",
-      "topic": "String",
-      "week": 6,
-      "number": 1
-    },
-    {
-      "folder": "Week06-02. String to Integer",
-      "name": "String to Integer",
-      "topic": "String",
-      "week": 6,
-      "number": 2
-    },
-    {
-      "folder": "Week06-03. Container With Most Water",
-      "name": "Container With Most Water",
-      "topic": "Array",
-      "week": 6,
-      "number": 3
-    },
-    {
-      "folder": "Week06-04. Letter Combinations of a Phone Number",
-      "name": "Letter Combinations of a Phone Number",
-      "topic": "Backtracking",
-      "week": 6,
-      "number": 4
-    },
-    {
-      "folder": "Week06-05. Spiral Matrix",
-      "name": "Spiral Matrix",
-      "topic": "Array",
-      "week": 6,
-      "number": 5
-    },
-    {
-      "folder": "Week06-06. Unique Paths",
-      "name": "Unique Paths",
-      "topic": "Dynamic Programming",
-      "week": 6,
-      "number": 6
-    },
-    {
-      "folder": "Week06-07. Subsets",
-      "name": "Subsets",
-      "topic": "Backtracking",
-      "week": 6,
-      "number": 7
-    },
-    {
-      "folder": "Week06-08. Word Search",
-      "name": "Word Search",
-      "topic": "Backtracking",
-      "week": 6,
-      "number": 8
-    },
-    {
-      "folder": "Week06-09. Construct Binary Tree from Preorder and Inorder Traversal",
-      "name": "Construct Binary Tree from Preorder and Inorder Traversal",
-      "topic": "Tree",
-      "week": 6,
-      "number": 9
-    },
-    {
-      "folder": "Week06-10. Binary Tree Right Side View",
-      "name": "Binary Tree Right Side View",
-      "topic": "Tree",
-      "week": 6,
-      "number": 10
-    },
-    {
-      "folder": "Week06-11. Partition Equal Subset Sum",
-      "name": "Partition Equal Subset Sum",
-      "topic": "Dynamic Programming",
-      "week": 6,
-      "number": 11
-    },
-    {
-      "folder": "Week07-01. Next Permutation",
-      "name": "Next Permutation",
-      "topic": "Array",
-      "week": 7,
-      "number": 1
-    },
-    {
-      "folder": "Week07-02. Valid Sudoku",
-      "name": "Valid Sudoku",
-      "topic": "Hashing",
-      "week": 7,
-      "number": 2
-    },
-    {
-      "folder": "Week07-03. Gas Station",
-      "name": "Gas Station",
-      "topic": "Greedy",
-      "week": 7,
-      "number": 3
-    },
-    {
-      "folder": "Week07-04. LRU Cache",
-      "name": "LRU Cache",
-      "topic": "Hashing",
-      "week": 7,
-      "number": 4
-    },
-    {
-      "folder": "Week07-05. House Robber",
-      "name": "House Robber",
-      "topic": "Dynamic Programming",
-      "week": 7,
-      "number": 5
-    },
-    {
-      "folder": "Week07-06. Kth Smallest Element in a BST",
-      "name": "Kth Smallest Element in a BST",
-      "topic": "Tree",
-      "week": 7,
-      "number": 6
-    },
-    {
-      "folder": "Week07-07. Minimum Height Trees",
-      "name": "Minimum Height Trees",
-      "topic": "Tree",
-      "week": 7,
-      "number": 7
-    },
-    {
-      "folder": "Week07-08. Find All Anagrams in a String",
-      "name": "Find All Anagrams in a String",
-      "topic": "String",
-      "week": 7,
-      "number": 8
-    },
-    {
-      "folder": "Week07-09. Task Scheduler",
-      "name": "Task Scheduler",
-      "topic": "Greedy",
-      "week": 7,
-      "number": 9
-    },
-    {
-      "folder": "Week07-10. Daily Temperatures",
-      "name": "Daily Temperatures",
-      "topic": "Stack",
-      "week": 7,
-      "number": 10
-    },
-    {
-      "folder": "Week08-01. Remove Nth Node From End of List",
-      "name": "Remove Nth Node From End of List",
-      "topic": "Linked List",
-      "week": 8,
-      "number": 1
-    },
-    {
-      "folder": "Week08-02. Group Anagrams",
-      "name": "Group Anagrams",
-      "topic": "Hashing",
-      "week": 8,
-      "number": 2
-    },
-    {
-      "folder": "Week08-03. Maximum Product Subarray",
-      "name": "Maximum Product Subarray",
-      "topic": "Dynamic Programming",
-      "week": 8,
-      "number": 3
-    },
-    {
-      "folder": "Week08-04. Design Add and Search Words Data Structure",
-      "name": "Design Add and Search Words Data Structure",
-      "topic": "Tree",
-      "week": 8,
-      "number": 4
-    },
-    {
-      "folder": "Week08-05. Graph Valid Tree",
-      "name": "Graph Valid Tree",
-      "topic": "Graph",
-      "week": 8,
-      "number": 5
-    },
-    {
-      "folder": "Week08-06. Find the Duplicate Number",
-      "name": "Find the Duplicate Number",
-      "topic": "Array",
-      "week": 8,
-      "number": 6
-    },
-    {
-      "folder": "Week08-07. Longest Increasing Subsequence",
-      "name": "Longest Increasing Subsequence",
-      "topic": "Dynamic Programming",
-      "week": 8,
-      "number": 7
-    },
-    {
-      "folder": "Week08-08. Pacific Atlantic Water Flow",
-      "name": "Pacific Atlantic Water Flow",
-      "topic": "Graph",
-      "week": 8,
-      "number": 8
-    },
-    {
-      "folder": "Week08-09. Top K Frequent Words",
-      "name": "Top K Frequent Words",
-      "topic": "Sorting",
-      "week": 8,
-      "number": 9
-    },
-    {
-      "folder": "Week08-10. Shortest Path to Get Food",
-      "name": "Shortest Path to Get Food",
-      "topic": "Graph",
-      "week": 8,
-      "number": 10
-    },
-    {
-      "folder": "Week09-01. Swap Nodes in Pairs",
-      "name": "Swap Nodes in Pairs",
-      "topic": "Linked List",
-      "week": 9,
-      "number": 1
-    },
-    {
-      "folder": "Week09-02. Path Sum II",
-      "name": "Path Sum II",
-      "topic": "Tree",
-      "week": 9,
-      "number": 2
-    },
-    {
-      "folder": "Week09-03. Longest Consecutive Sequence",
-      "name": "Longest Consecutive Sequence",
-      "topic": "Hashing",
-      "week": 9,
-      "number": 3
-    },
-    {
-      "folder": "Week09-04. Rotate Array",
-      "name": "Rotate Array",
-      "topic": "Array",
-      "week": 9,
-      "number": 4
-    },
-    {
-      "folder": "Week09-05. Course Schedule II",
-      "name": "Course Schedule II",
-      "topic": "Graph",
-      "week": 9,
-      "number": 5
-    },
-    {
-      "folder": "Week09-06. Odd Even Linked List",
-      "name": "Odd Even Linked List",
-      "topic": "Linked List",
-      "week": 9,
-      "number": 6
-    },
-    {
-      "folder": "Week09-07. Decode String",
-      "name": "Decode String",
-      "topic": "Stack",
-      "week": 9,
-      "number": 7
-    },
-    {
-      "folder": "Week09-08. Longest Repeating Character Replacement",
-      "name": "Longest Repeating Character Replacement",
-      "topic": "String",
-      "week": 9,
-      "number": 8
-    },
-    {
-      "folder": "Week09-09. Contiguous Array",
-      "name": "Contiguous Array",
-      "topic": "Hashing",
-      "week": 9,
-      "number": 9
-    },
-    {
-      "folder": "Week09-10. Find K Closest Elements",
-      "name": "Find K Closest Elements",
-      "topic": "Array",
-      "week": 9,
-      "number": 10
-    },
-    {
-      "folder": "Week09-11. Maximum Width of Binary Tree",
-      "name": "Maximum Width of Binary Tree",
-      "topic": "Tree",
-      "week": 9,
-      "number": 11
-    },
-    {
-      "folder": "Week10-01. Add Two Numbers",
-      "name": "Add Two Numbers",
-      "topic": "Linked List",
-      "week": 10,
-      "number": 1
-    },
-    {
-      "folder": "Week10-02. Generate Parentheses",
-      "name": "Generate Parentheses",
-      "topic": "Backtracking",
-      "week": 10,
-      "number": 2
-    },
-    {
-      "folder": "Week10-03. Jump Game",
-      "name": "Jump Game",
-      "topic": "Dynamic Programming",
-      "week": 10,
-      "number": 3
-    },
-    {
-      "folder": "Week10-04. Sort List",
-      "name": "Sort List",
-      "topic": "Linked List",
-      "week": 10,
-      "number": 4
-    },
-    {
-      "folder": "Week10-05. Inorder Successor in BST",
-      "name": "Inorder Successor in BST",
-      "topic": "Tree",
-      "week": 10,
-      "number": 5
-    },
-    {
-      "folder": "Week10-06. Number of Connected Components",
-      "name": "Number of Connected Components",
-      "topic": "Graph",
-      "week": 10,
-      "number": 6
-    },
-    {
-      "folder": "Week10-07. Random Pick with Weight",
-      "name": "Random Pick with Weight",
-      "topic": "Binary Search",
-      "week": 10,
-      "number": 7
-    },
-    {
-      "folder": "Week10-08. Subarray Sum Equals K",
-      "name": "Subarray Sum Equals K",
-      "topic": "Hashing",
-      "week": 10,
-      "number": 8
-    },
-    {
-      "folder": "Week10-09. Asteroid Collision",
-      "name": "Asteroid Collision",
-      "topic": "Stack",
-      "week": 10,
-      "number": 9
-    },
-    {
-      "folder": "Week10-10. Minimum Knight Moves",
-      "name": "Minimum Knight Moves",
-      "topic": "Graph",
-      "week": 10,
-      "number": 10
-    },
-    {
-      "folder": "Week11-01. Rotate Image",
-      "name": "Rotate Image",
-      "topic": "Array",
-      "week": 11,
-      "number": 1
-    },
-    {
-      "folder": "Week11-02. Pow(x, n)",
-      "name": "Pow(x, n)",
-      "topic": "Math",
-      "week": 11,
-      "number": 2
-    },
-    {
-      "folder": "Week11-03. Search a 2D Matrix",
-      "name": "Search a 2D Matrix",
-      "topic": "Array",
-      "week": 11,
-      "number": 3
-    },
-    {
-      "folder": "Week11-04. Decode Ways",
-      "name": "Decode Ways",
-      "topic": "Dynamic Programming",
-      "week": 11,
-      "number": 4
-    },
-    {
-      "folder": "Week11-05. Binary Tree Zigzag Level Order Traversal",
-      "name": "Binary Tree Zigzag Level Order Traversal",
-      "topic": "Tree",
-      "week": 11,
-      "number": 5
-    },
-    {
-      "folder": "Week11-06. Largest Number",
-      "name": "Largest Number",
-      "topic": "Sorting",
-      "week": 11,
-      "number": 6
-    },
-    {
-      "folder": "Week11-07. Kth Largest Element in an Array",
-      "name": "Kth Largest Element in an Array",
-      "topic": "Sorting",
-      "week": 11,
-      "number": 7
-    },
-    {
-      "folder": "Week11-08. Maximal Square",
-      "name": "Maximal Square",
-      "topic": "Dynamic Programming",
-      "week": 11,
-      "number": 8
-    },
-    {
-      "folder": "Week11-09. Meeting Rooms II",
-      "name": "Meeting Rooms II",
-      "topic": "Sorting",
-      "week": 11,
-      "number": 9
-    },
-    {
-      "folder": "Week11-10. Design Hit Counter",
-      "name": "Design Hit Counter",
-      "topic": "Design",
-      "week": 11,
-      "number": 10
-    },
-    {
-      "folder": "Week11-11. Path Sum III",
-      "name": "Path Sum III",
-      "topic": "Tree",
-      "week": 11,
-      "number": 11
-    },
-    {
-      "folder": "Week12-01. Reverse Integer",
-      "name": "Reverse Integer",
-      "topic": "String",
-      "week": 12,
-      "number": 1
-    },
-    {
-      "folder": "Week12-02. 3Sum Closest",
-      "name": "3Sum Closest",
-      "topic": "Array",
-      "week": 12,
-      "number": 2
-    },
-    {
-      "folder": "Week12-03. Rotate List",
-      "name": "Rotate List",
-      "topic": "Linked List",
-      "week": 12,
-      "number": 3
-    },
-    {
-      "folder": "Week12-04. Set Matrix Zeroes",
-      "name": "Set Matrix Zeroes",
-      "topic": "Array",
-      "week": 12,
-      "number": 4
-    },
-    {
-      "folder": "Week12-05. Reorder List",
-      "name": "Reorder List",
-      "topic": "Linked List",
-      "week": 12,
-      "number": 5
-    },
-    {
-      "folder": "Week12-06. Find Minimum in Rotated Sorted Array",
-      "name": "Find Minimum in Rotated Sorted Array",
-      "topic": "Array",
-      "week": 12,
-      "number": 6
-    },
-    {
-      "folder": "Week12-07. Basic Calculator II",
-      "name": "Basic Calculator II",
-      "topic": "Stack",
-      "week": 12,
-      "number": 7
-    },
-    {
-      "folder": "Week12-08. Encode and Decode Strings",
-      "name": "Encode and Decode Strings",
-      "topic": "String",
-      "week": 12,
-      "number": 8
-    },
-    {
-      "folder": "Week12-09. Cheapest Flights Within K Stops",
-      "name": "Cheapest Flights Within K Stops",
-      "topic": "Graph",
-      "week": 12,
-      "number": 9
-    },
-    {
-      "folder": "Week12-10. All Nodes Distance K in Binary Tree",
-      "name": "All Nodes Distance K in Binary Tree",
-      "topic": "Tree",
-      "week": 12,
-      "number": 10
-    },
-    {
-      "folder": "Week13-01. Combination Sum IV",
-      "name": "Combination Sum IV",
-      "topic": "Dynamic Programming",
-      "week": 13,
-      "number": 1
-    },
-    {
-      "folder": "Week13-02. Insert Delete GetRandom O(1)",
-      "name": "Insert Delete GetRandom O(1)",
-      "topic": "Hashing",
-      "week": 13,
-      "number": 2
-    },
-    {
-      "folder": "Week13-03. Non Overlapping Intervals",
-      "name": "Non Overlapping Intervals",
-      "topic": "Greedy",
-      "week": 13,
-      "number": 3
-    },
-    {
-      "folder": "Week13-04. Trapping Rain Water",
-      "name": "Trapping Rain Water",
-      "topic": "Array",
-      "week": 13,
-      "number": 4
-    },
-    {
-      "folder": "Week13-05. Minimum Window Substring",
-      "name": "Minimum Window Substring",
-      "topic": "String",
-      "week": 13,
-      "number": 5
-    },
-    {
-      "folder": "Week13-06. Word Ladder",
-      "name": "Word Ladder",
-      "topic": "Graph",
-      "week": 13,
-      "number": 6
-    },
-    {
-      "folder": "Week13-07. Basic Calculator",
-      "name": "Basic Calculator",
-      "topic": "Stack",
-      "week": 13,
-      "number": 7
-    },
-    {
-      "folder": "Week13-08. Find Median from Data Stream",
-      "name": "Find Median from Data Stream",
-      "topic": "Sorting",
-      "week": 13,
-      "number": 8
-    },
-    {
-      "folder": "Week13-09. Serialize and Deserialize Binary Tree",
-      "name": "Serialize and Deserialize Binary Tree",
-      "topic": "Tree",
-      "week": 13,
-      "number": 9
-    },
-    {
-      "folder": "Week14-01. Median of Two Sorted Arrays",
-      "name": "Median of Two Sorted Arrays",
-      "topic": "Array",
-      "week": 14,
-      "number": 1
-    },
-    {
-      "folder": "Week14-02. Merge K Sorted Lists",
-      "name": "Merge K Sorted Lists",
-      "topic": "Linked List",
-      "week": 14,
-      "number": 2
-    },
-    {
-      "folder": "Week14-03. Longest Valid Parentheses",
-      "name": "Longest Valid Parentheses",
-      "topic": "String",
-      "week": 14,
-      "number": 3
-    },
-    {
-      "folder": "Week14-04. Largest Rectangle in Histogram",
-      "name": "Largest Rectangle in Histogram",
-      "topic": "Stack",
-      "week": 14,
-      "number": 4
-    },
-    {
-      "folder": "Week14-05. Binary Tree Maximum Path Sum",
-      "name": "Binary Tree Maximum Path Sum",
-      "topic": "Tree",
-      "week": 14,
-      "number": 5
-    },
-    {
-      "folder": "Week14-06. Longest Increasing Path in a Matrix",
-      "name": "Longest Increasing Path in a Matrix",
-      "topic": "Dynamic Programming",
-      "week": 14,
-      "number": 6
-    },
-    {
-      "folder": "Week14-07. Maximum Frequency Stack",
-      "name": "Maximum Frequency Stack",
-      "topic": "Stack",
-      "week": 14,
-      "number": 7
-    },
-    {
-      "folder": "Week14-08. Maximum Profit in Job Scheduling",
-      "name": "Maximum Profit in Job Scheduling",
-      "topic": "Dynamic Programming",
-      "week": 14,
-      "number": 8
-    },
-    {
-      "folder": "Week15-01. Word Search II",
-      "name": "Word Search II",
-      "topic": "Tree",
-      "week": 15,
-      "number": 1
-    },
-    {
-      "folder": "Week15-02. Sliding Window Maximum",
-      "name": "Sliding Window Maximum",
-      "topic": "Stack",
-      "week": 15,
-      "number": 2
-    },
-    {
-      "folder": "Week15-03. Alien Dictionary",
-      "name": "Alien Dictionary",
-      "topic": "Graph",
-      "week": 15,
-      "number": 3
-    },
-    {
-      "folder": "Week15-04. Palindrome Pairs",
-      "name": "Palindrome Pairs",
-      "topic": "Hashing",
-      "week": 15,
-      "number": 4
-    },
-    {
-      "folder": "Week15-05. Design In Memory File System",
-      "name": "Design In Memory File System",
-      "topic": "Design",
-      "week": 15,
-      "number": 5
-    },
-    {
-      "folder": "Week15-06. Employee Free Time",
-      "name": "Employee Free Time",
-      "topic": "Sorting",
-      "week": 15,
-      "number": 6
-    },
-    {
-      "folder": "Week15-07. Bus Routes",
-      "name": "Bus Routes",
-      "topic": "Graph",
-      "week": 15,
-      "number": 7
-    },
-    {
-      "folder": "Week16-01. Reverse Nodes in k-Group",
-      "name": "Reverse Nodes in k-Group",
-      "topic": "Linked List",
-      "week": 16,
-      "number": 1
-    },
-    {
-      "folder": "Week16-02. Sudoku Solver",
-      "name": "Sudoku Solver",
-      "topic": "Backtracking",
-      "week": 16,
-      "number": 2
-    },
-    {
-      "folder": "Week16-03. First Missing Positive",
-      "name": "First Missing Positive",
-      "topic": "Array",
-      "week": 16,
-      "number": 3
-    },
-    {
-      "folder": "Week16-04. N-Queens",
-      "name": "N-Queens",
-      "topic": "Backtracking",
-      "week": 16,
-      "number": 4
-    },
-    {
-      "folder": "Week16-05. Smallest Range Covering Elements from K Lists",
-      "name": "Smallest Range Covering Elements from K Lists",
-      "topic": "Sorting",
-      "week": 16,
-      "number": 5
-    }
-  ]
-}
+[
+  {
+    "folder": "solutions/Week1-01-1. Two Sum",
+    "title": "Two Sum",
+    "slug": "two-sum",
+    "lc_number": 1,
+    "difficulty": "Easy",
+    "topic": "Array",
+    "week": 1,
+    "url": "https://leetcode.com/problems/two-sum/"
+  },
+  {
+    "folder": "solutions/Week1-02-20. Valid Parentheses",
+    "title": "Valid Parentheses",
+    "slug": "valid-parentheses",
+    "lc_number": 20,
+    "difficulty": "Easy",
+    "topic": "Stack",
+    "week": 1,
+    "url": "https://leetcode.com/problems/valid-parentheses/"
+  },
+  {
+    "folder": "solutions/Week1-03-21. Merge Two Sorted Lists",
+    "title": "Merge Two Sorted Lists",
+    "slug": "merge-two-sorted-lists",
+    "lc_number": 21,
+    "difficulty": "Easy",
+    "topic": "Linked List",
+    "week": 1,
+    "url": "https://leetcode.com/problems/merge-two-sorted-lists/"
+  },
+  {
+    "folder": "solutions/Week1-04-121. Best Time to Buy and Sell Stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "slug": "best-time-to-buy-and-sell-stock",
+    "lc_number": 121,
+    "difficulty": "Easy",
+    "topic": "Array",
+    "week": 1,
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+  },
+  {
+    "folder": "solutions/Week1-05-125. Valid Palindrome",
+    "title": "Valid Palindrome",
+    "slug": "valid-palindrome",
+    "lc_number": 125,
+    "difficulty": "Easy",
+    "topic": "String",
+    "week": 1,
+    "url": "https://leetcode.com/problems/valid-palindrome/"
+  },
+  {
+    "folder": "solutions/Week1-06-226. Invert Binary Tree",
+    "title": "Invert Binary Tree",
+    "slug": "invert-binary-tree",
+    "lc_number": 226,
+    "difficulty": "Easy",
+    "topic": "Binary Tree",
+    "week": 1,
+    "url": "https://leetcode.com/problems/invert-binary-tree/"
+  },
+  {
+    "folder": "solutions/Week1-07-242. Valid Anagram",
+    "title": "Valid Anagram",
+    "slug": "valid-anagram",
+    "lc_number": 242,
+    "difficulty": "Easy",
+    "topic": "String",
+    "week": 1,
+    "url": "https://leetcode.com/problems/valid-anagram/"
+  },
+  {
+    "folder": "solutions/Week1-08-704. Binary Search",
+    "title": "Binary Search",
+    "slug": "binary-search",
+    "lc_number": 704,
+    "difficulty": "Easy",
+    "topic": "Binary Search",
+    "week": 1,
+    "url": "https://leetcode.com/problems/binary-search/"
+  },
+  {
+    "folder": "solutions/Week1-09-733. Flood Fill",
+    "title": "Flood Fill",
+    "slug": "flood-fill",
+    "lc_number": 733,
+    "difficulty": "Easy",
+    "topic": "Graph",
+    "week": 1,
+    "url": "https://leetcode.com/problems/flood-fill/"
+  },
+  {
+    "folder": "solutions/Week1-10-235. Lowest Common Ancestor of a Binary Search Tree",
+    "title": "Lowest Common Ancestor of a Binary Search Tree",
+    "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+    "lc_number": 235,
+    "difficulty": "Easy",
+    "topic": "Binary Search Tree",
+    "week": 1,
+    "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/"
+  },
+  {
+    "folder": "solutions/Week1-11-110. Balanced Binary Tree",
+    "title": "Balanced Binary Tree",
+    "slug": "balanced-binary-tree",
+    "lc_number": 110,
+    "difficulty": "Easy",
+    "topic": "Binary Tree",
+    "week": 1,
+    "url": "https://leetcode.com/problems/balanced-binary-tree/"
+  },
+  {
+    "folder": "solutions/Week1-12-141. Linked List Cycle",
+    "title": "Linked List Cycle",
+    "slug": "linked-list-cycle",
+    "lc_number": 141,
+    "difficulty": "Easy",
+    "topic": "Linked List",
+    "week": 1,
+    "url": "https://leetcode.com/problems/linked-list-cycle/"
+  },
+  {
+    "folder": "solutions/Week1-13-232. Implement Queue using Stacks",
+    "title": "Implement Queue using Stacks",
+    "slug": "implement-queue-using-stacks",
+    "lc_number": 232,
+    "difficulty": "Easy",
+    "topic": "Stack",
+    "week": 1,
+    "url": "https://leetcode.com/problems/implement-queue-using-stacks/"
+  },
+  {
+    "folder": "solutions/Week1-14-278. First Bad Version",
+    "title": "First Bad Version",
+    "slug": "first-bad-version",
+    "lc_number": 278,
+    "difficulty": "Easy",
+    "topic": "Binary Search",
+    "week": 1,
+    "url": "https://leetcode.com/problems/first-bad-version/"
+  },
+  {
+    "folder": "solutions/Week1-15-383. Ransom Note",
+    "title": "Ransom Note",
+    "slug": "ransom-note",
+    "lc_number": 383,
+    "difficulty": "Easy",
+    "topic": "Hash Table",
+    "week": 1,
+    "url": "https://leetcode.com/problems/ransom-note/"
+  },
+  {
+    "folder": "solutions/Week1-16-70. Climbing Stairs",
+    "title": "Climbing Stairs",
+    "slug": "climbing-stairs",
+    "lc_number": 70,
+    "difficulty": "Easy",
+    "topic": "Dynamic Programming",
+    "week": 1,
+    "url": "https://leetcode.com/problems/climbing-stairs/"
+  },
+  {
+    "folder": "solutions/Week1-17-409. Longest Palindrome",
+    "title": "Longest Palindrome",
+    "slug": "longest-palindrome",
+    "lc_number": 409,
+    "difficulty": "Easy",
+    "topic": "String",
+    "week": 1,
+    "url": "https://leetcode.com/problems/longest-palindrome/"
+  },
+  {
+    "folder": "solutions/Week1-18-206. Reverse Linked List",
+    "title": "Reverse Linked List",
+    "slug": "reverse-linked-list",
+    "lc_number": 206,
+    "difficulty": "Easy",
+    "topic": "Linked List",
+    "week": 1,
+    "url": "https://leetcode.com/problems/reverse-linked-list/"
+  },
+  {
+    "folder": "solutions/Week1-19-169. Majority Element",
+    "title": "Majority Element",
+    "slug": "majority-element",
+    "lc_number": 169,
+    "difficulty": "Easy",
+    "topic": "Array",
+    "week": 1,
+    "url": "https://leetcode.com/problems/majority-element/"
+  },
+  {
+    "folder": "solutions/Week1-20-67. Add Binary",
+    "title": "Add Binary",
+    "slug": "add-binary",
+    "lc_number": 67,
+    "difficulty": "Easy",
+    "topic": "Binary",
+    "week": 1,
+    "url": "https://leetcode.com/problems/add-binary/"
+  },
+  {
+    "folder": "solutions/Week1-21-543. Diameter of Binary Tree",
+    "title": "Diameter of Binary Tree",
+    "slug": "diameter-of-binary-tree",
+    "lc_number": 543,
+    "difficulty": "Easy",
+    "topic": "Binary Tree",
+    "week": 1,
+    "url": "https://leetcode.com/problems/diameter-of-binary-tree/"
+  },
+  {
+    "folder": "solutions/Week1-22-876. Middle of the Linked List",
+    "title": "Middle of the Linked List",
+    "slug": "middle-of-the-linked-list",
+    "lc_number": 876,
+    "difficulty": "Easy",
+    "topic": "Linked List",
+    "week": 1,
+    "url": "https://leetcode.com/problems/middle-of-the-linked-list/"
+  },
+  {
+    "folder": "solutions/Week1-23-53. Maximum Subarray",
+    "title": "Maximum Subarray",
+    "slug": "maximum-subarray",
+    "lc_number": 53,
+    "difficulty": "Medium",
+    "topic": "Dynamic Programming",
+    "week": 1,
+    "url": "https://leetcode.com/problems/maximum-subarray/"
+  },
+  {
+    "folder": "solutions/Week1-24-57. Insert Interval",
+    "title": "Insert Interval",
+    "slug": "insert-interval",
+    "lc_number": 57,
+    "difficulty": "Medium",
+    "topic": "Array",
+    "week": 1,
+    "url": "https://leetcode.com/problems/insert-interval/"
+  },
+  {
+    "folder": "solutions/Week1-25-542. 01 Matrix",
+    "title": "01 Matrix",
+    "slug": "01-matrix",
+    "lc_number": 542,
+    "difficulty": "Medium",
+    "topic": "Graph",
+    "week": 1,
+    "url": "https://leetcode.com/problems/01-matrix/"
+  },
+  {
+    "folder": "solutions/Week1-26-973. K Closest Points to Origin",
+    "title": "K Closest Points to Origin",
+    "slug": "k-closest-points-to-origin",
+    "lc_number": 973,
+    "difficulty": "Medium",
+    "topic": "Heap",
+    "week": 1,
+    "url": "https://leetcode.com/problems/k-closest-points-to-origin/"
+  },
+  {
+    "folder": "solutions/Week1-27-3. Longest Substring Without Repeating Characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "slug": "longest-substring-without-repeating-characters",
+    "lc_number": 3,
+    "difficulty": "Medium",
+    "topic": "String",
+    "week": 1,
+    "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+  },
+  {
+    "folder": "solutions/Week1-28-15. 3Sum",
+    "title": "3Sum",
+    "slug": "3sum",
+    "lc_number": 15,
+    "difficulty": "Medium",
+    "topic": "Array",
+    "week": 1,
+    "url": "https://leetcode.com/problems/3sum/"
+  },
+  {
+    "folder": "solutions/Week1-29-102. Binary Tree Level Order Traversal",
+    "title": "Binary Tree Level Order Traversal",
+    "slug": "binary-tree-level-order-traversal",
+    "lc_number": 102,
+    "difficulty": "Medium",
+    "topic": "Binary Tree",
+    "week": 1,
+    "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/"
+  },
+  {
+    "folder": "solutions/Week1-30-133. Clone Graph",
+    "title": "Clone Graph",
+    "slug": "clone-graph",
+    "lc_number": 133,
+    "difficulty": "Medium",
+    "topic": "Graph",
+    "week": 1,
+    "url": "https://leetcode.com/problems/clone-graph/"
+  },
+  {
+    "folder": "solutions/Week1-31-150. Evaluate Reverse Polish Notation",
+    "title": "Evaluate Reverse Polish Notation",
+    "slug": "evaluate-reverse-polish-notation",
+    "lc_number": 150,
+    "difficulty": "Medium",
+    "topic": "Stack",
+    "week": 1,
+    "url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/"
+  },
+  {
+    "folder": "solutions/Week1-32-207. Course Schedule",
+    "title": "Course Schedule",
+    "slug": "course-schedule",
+    "lc_number": 207,
+    "difficulty": "Medium",
+    "topic": "Graph",
+    "week": 1,
+    "url": "https://leetcode.com/problems/course-schedule/"
+  },
+  {
+    "folder": "solutions/Week1-33-208. Implement Trie (Prefix Tree)",
+    "title": "Implement Trie (Prefix Tree)",
+    "slug": "implement-trie-prefix-tree",
+    "lc_number": 208,
+    "difficulty": "Medium",
+    "topic": "Trie",
+    "week": 1,
+    "url": "https://leetcode.com/problems/implement-trie-prefix-tree/"
+  },
+  {
+    "folder": "solutions/Week1-34-322. Coin Change",
+    "title": "Coin Change",
+    "slug": "coin-change",
+    "lc_number": 322,
+    "difficulty": "Medium",
+    "topic": "Dynamic Programming",
+    "week": 1,
+    "url": "https://leetcode.com/problems/coin-change/"
+  },
+  {
+    "folder": "solutions/Week1-35-238. Product of Array Except Self",
+    "title": "Product of Array Except Self",
+    "slug": "product-of-array-except-self",
+    "lc_number": 238,
+    "difficulty": "Medium",
+    "topic": "Array",
+    "week": 1,
+    "url": "https://leetcode.com/problems/product-of-array-except-self/"
+  },
+  {
+    "folder": "solutions/Week1-36-155. Min Stack",
+    "title": "Min Stack",
+    "slug": "min-stack",
+    "lc_number": 155,
+    "difficulty": "Medium",
+    "topic": "Stack",
+    "week": 1,
+    "url": "https://leetcode.com/problems/min-stack/"
+  },
+  {
+    "folder": "solutions/Week1-37-98. Validate Binary Search Tree",
+    "title": "Validate Binary Search Tree",
+    "slug": "validate-binary-search-tree",
+    "lc_number": 98,
+    "difficulty": "Medium",
+    "topic": "Binary Search Tree",
+    "week": 1,
+    "url": "https://leetcode.com/problems/validate-binary-search-tree/"
+  },
+  {
+    "folder": "solutions/Week1-38-200. Number of Islands",
+    "title": "Number of Islands",
+    "slug": "number-of-islands",
+    "lc_number": 200,
+    "difficulty": "Medium",
+    "topic": "Graph",
+    "week": 1,
+    "url": "https://leetcode.com/problems/number-of-islands/"
+  },
+  {
+    "folder": "solutions/Week1-39-994. Rotting Oranges",
+    "title": "Rotting Oranges",
+    "slug": "rotting-oranges",
+    "lc_number": 994,
+    "difficulty": "Medium",
+    "topic": "Graph",
+    "week": 1,
+    "url": "https://leetcode.com/problems/rotting-oranges/"
+  },
+  {
+    "folder": "solutions/Week1-40-33. Search in Rotated Sorted Array",
+    "title": "Search in Rotated Sorted Array",
+    "slug": "search-in-rotated-sorted-array",
+    "lc_number": 33,
+    "difficulty": "Medium",
+    "topic": "Binary Search",
+    "week": 1,
+    "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/"
+  },
+  {
+    "folder": "solutions/Week1-41-39. Combination Sum",
+    "title": "Combination Sum",
+    "slug": "combination-sum",
+    "lc_number": 39,
+    "difficulty": "Medium",
+    "topic": "Array",
+    "week": 1,
+    "url": "https://leetcode.com/problems/combination-sum/"
+  },
+  {
+    "folder": "solutions/Week1-42-46. Permutations",
+    "title": "Permutations",
+    "slug": "permutations",
+    "lc_number": 46,
+    "difficulty": "Medium",
+    "topic": "Recursion",
+    "week": 1,
+    "url": "https://leetcode.com/problems/permutations/"
+  },
+  {
+    "folder": "solutions/Week1-43-56. Merge Intervals",
+    "title": "Merge Intervals",
+    "slug": "merge-intervals",
+    "lc_number": 56,
+    "difficulty": "Medium",
+    "topic": "Array",
+    "week": 1,
+    "url": "https://leetcode.com/problems/merge-intervals/"
+  },
+  {
+    "folder": "solutions/Week1-44-236. Lowest Common Ancestor of a Binary Tree",
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "slug": "lowest-common-ancestor-of-a-binary-tree",
+    "lc_number": 236,
+    "difficulty": "Medium",
+    "topic": "Binary Tree",
+    "week": 1,
+    "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/"
+  },
+  {
+    "folder": "solutions/Week1-45-981. Time Based Key-Value Store",
+    "title": "Time Based Key-Value Store",
+    "slug": "time-based-key-value-store",
+    "lc_number": 981,
+    "difficulty": "Medium",
+    "topic": "Binary Search",
+    "week": 1,
+    "url": "https://leetcode.com/problems/time-based-key-value-store/"
+  },
+  {
+    "folder": "solutions/Week1-46-721. Accounts Merge",
+    "title": "Accounts Merge",
+    "slug": "accounts-merge",
+    "lc_number": 721,
+    "difficulty": "Medium",
+    "topic": "Graph",
+    "week": 1,
+    "url": "https://leetcode.com/problems/accounts-merge/"
+  },
+  {
+    "folder": "solutions/Week1-47-75. Sort Colors",
+    "title": "Sort Colors",
+    "slug": "sort-colors",
+    "lc_number": 75,
+    "difficulty": "Medium",
+    "topic": "Array",
+    "week": 1,
+    "url": "https://leetcode.com/problems/sort-colors/"
+  },
+  {
+    "folder": "solutions/Week1-48-139. Word Break",
+    "title": "Word Break",
+    "slug": "word-break",
+    "lc_number": 139,
+    "difficulty": "Medium",
+    "topic": "Trie",
+    "week": 1,
+    "url": "https://leetcode.com/problems/word-break/"
+  },
+  {
+    "folder": "solutions/Week1-49-416. Partition Equal Subset Sum",
+    "title": "Partition Equal Subset Sum",
+    "slug": "partition-equal-subset-sum",
+    "lc_number": 416,
+    "difficulty": "Medium",
+    "topic": "Dynamic Programming",
+    "week": 1,
+    "url": "https://leetcode.com/problems/partition-equal-subset-sum/"
+  },
+  {
+    "folder": "solutions/Week1-50-8. String to Integer (atoi)",
+    "title": "String to Integer (atoi)",
+    "slug": "string-to-integer-atoi",
+    "lc_number": 8,
+    "difficulty": "Medium",
+    "topic": "String",
+    "week": 1,
+    "url": "https://leetcode.com/problems/string-to-integer-atoi/"
+  },
+  {
+    "folder": "solutions/Week1-51-54. Spiral Matrix",
+    "title": "Spiral Matrix",
+    "slug": "spiral-matrix",
+    "lc_number": 54,
+    "difficulty": "Medium",
+    "topic": "Matrix",
+    "week": 1,
+    "url": "https://leetcode.com/problems/spiral-matrix/"
+  },
+  {
+    "folder": "solutions/Week1-52-78. Subsets",
+    "title": "Subsets",
+    "slug": "subsets",
+    "lc_number": 78,
+    "difficulty": "Medium",
+    "topic": "Recursion",
+    "week": 1,
+    "url": "https://leetcode.com/problems/subsets/"
+  },
+  {
+    "folder": "solutions/Week1-53-199. Binary Tree Right Side View",
+    "title": "Binary Tree Right Side View",
+    "slug": "binary-tree-right-side-view",
+    "lc_number": 199,
+    "difficulty": "Medium",
+    "topic": "Binary Tree",
+    "week": 1,
+    "url": "https://leetcode.com/problems/binary-tree-right-side-view/"
+  },
+  {
+    "folder": "solutions/Week1-54-5. Longest Palindromic Substring",
+    "title": "Longest Palindromic Substring",
+    "slug": "longest-palindromic-substring",
+    "lc_number": 5,
+    "difficulty": "Medium",
+    "topic": "String",
+    "week": 1,
+    "url": "https://leetcode.com/problems/longest-palindromic-substring/"
+  },
+  {
+    "folder": "solutions/Week1-55-76. Minimum Window Substring",
+    "title": "Minimum Window Substring",
+    "slug": "minimum-window-substring",
+    "lc_number": 76,
+    "difficulty": "Hard",
+    "topic": "String",
+    "week": 1,
+    "url": "https://leetcode.com/problems/minimum-window-substring/"
+  },
+  {
+    "folder": "solutions/Week1-56-297. Serialize and Deserialize Binary Tree",
+    "title": "Serialize and Deserialize Binary Tree",
+    "slug": "serialize-and-deserialize-binary-tree",
+    "lc_number": 297,
+    "difficulty": "Hard",
+    "topic": "Binary Tree",
+    "week": 1,
+    "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/"
+  },
+  {
+    "folder": "solutions/Week1-57-42. Trapping Rain Water",
+    "title": "Trapping Rain Water",
+    "slug": "trapping-rain-water",
+    "lc_number": 42,
+    "difficulty": "Hard",
+    "topic": "Stack",
+    "week": 1,
+    "url": "https://leetcode.com/problems/trapping-rain-water/"
+  },
+  {
+    "folder": "solutions/Week1-58-295. Find Median from Data Stream",
+    "title": "Find Median from Data Stream",
+    "slug": "find-median-from-data-stream",
+    "lc_number": 295,
+    "difficulty": "Hard",
+    "topic": "Heap",
+    "week": 1,
+    "url": "https://leetcode.com/problems/find-median-from-data-stream/"
+  },
+  {
+    "folder": "solutions/Week2-01-104. Maximum Depth of Binary Tree",
+    "title": "Maximum Depth of Binary Tree",
+    "slug": "maximum-depth-of-binary-tree",
+    "lc_number": 104,
+    "difficulty": "Easy",
+    "topic": "Binary Tree",
+    "week": 2,
+    "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/"
+  },
+  {
+    "folder": "solutions/Week2-02-217. Contains Duplicate",
+    "title": "Contains Duplicate",
+    "slug": "contains-duplicate",
+    "lc_number": 217,
+    "difficulty": "Easy",
+    "topic": "Array",
+    "week": 2,
+    "url": "https://leetcode.com/problems/contains-duplicate/"
+  },
+  {
+    "folder": "solutions/Week2-03-252. Meeting Rooms",
+    "title": "Meeting Rooms",
+    "slug": "meeting-rooms",
+    "lc_number": 252,
+    "difficulty": "Easy",
+    "topic": "Array",
+    "week": 2,
+    "url": "https://leetcode.com/problems/meeting-rooms/"
+  },
+  {
+    "folder": "solutions/Week2-04-13. Roman to Integer",
+    "title": "Roman to Integer",
+    "slug": "roman-to-integer",
+    "lc_number": 13,
+    "difficulty": "Easy",
+    "topic": "Math",
+    "week": 2,
+    "url": "https://leetcode.com/problems/roman-to-integer/"
+  },
+  {
+    "folder": "solutions/Week2-05-844. Backspace String Compare",
+    "title": "Backspace String Compare",
+    "slug": "backspace-string-compare",
+    "lc_number": 844,
+    "difficulty": "Easy",
+    "topic": "Stack",
+    "week": 2,
+    "url": "https://leetcode.com/problems/backspace-string-compare/"
+  },
+  {
+    "folder": "solutions/Week2-06-338. Counting Bits",
+    "title": "Counting Bits",
+    "slug": "counting-bits",
+    "lc_number": 338,
+    "difficulty": "Easy",
+    "topic": "Binary",
+    "week": 2,
+    "url": "https://leetcode.com/problems/counting-bits/"
+  },
+  {
+    "folder": "solutions/Week2-07-62. Unique Paths",
+    "title": "Unique Paths",
+    "slug": "unique-paths",
+    "lc_number": 62,
+    "difficulty": "Medium",
+    "topic": "Dynamic Programming",
+    "week": 2,
+    "url": "https://leetcode.com/problems/unique-paths/"
+  },
+  {
+    "folder": "solutions/Week2-08-105. Construct Binary Tree from Preorder and Inorder Traversal",
+    "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+    "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+    "lc_number": 105,
+    "difficulty": "Medium",
+    "topic": "Binary Tree",
+    "week": 2,
+    "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/"
+  },
+  {
+    "folder": "solutions/Week2-09-11. Container With Most Water",
+    "title": "Container With Most Water",
+    "slug": "container-with-most-water",
+    "lc_number": 11,
+    "difficulty": "Medium",
+    "topic": "Array",
+    "week": 2,
+    "url": "https://leetcode.com/problems/container-with-most-water/"
+  },
+  {
+    "folder": "solutions/Week2-10-17. Letter Combinations of a Phone Number",
+    "title": "Letter Combinations of a Phone Number",
+    "slug": "letter-combinations-of-a-phone-number",
+    "lc_number": 17,
+    "difficulty": "Medium",
+    "topic": "Recursion",
+    "week": 2,
+    "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/"
+  },
+  {
+    "folder": "solutions/Week2-11-79. Word Search",
+    "title": "Word Search",
+    "slug": "word-search",
+    "lc_number": 79,
+    "difficulty": "Medium",
+    "topic": "Graph",
+    "week": 2,
+    "url": "https://leetcode.com/problems/word-search/"
+  },
+  {
+    "folder": "solutions/Week2-12-438. Find All Anagrams in a String",
+    "title": "Find All Anagrams in a String",
+    "slug": "find-all-anagrams-in-a-string",
+    "lc_number": 438,
+    "difficulty": "Medium",
+    "topic": "String",
+    "week": 2,
+    "url": "https://leetcode.com/problems/find-all-anagrams-in-a-string/"
+  },
+  {
+    "folder": "solutions/Week2-13-310. Minimum Height Trees",
+    "title": "Minimum Height Trees",
+    "slug": "minimum-height-trees",
+    "lc_number": 310,
+    "difficulty": "Medium",
+    "topic": "Graph",
+    "week": 2,
+    "url": "https://leetcode.com/problems/minimum-height-trees/"
+  },
+  {
+    "folder": "solutions/Week2-14-621. Task Scheduler",
+    "title": "Task Scheduler",
+    "slug": "task-scheduler",
+    "lc_number": 621,
+    "difficulty": "Medium",
+    "topic": "Heap",
+    "week": 2,
+    "url": "https://leetcode.com/problems/task-scheduler/"
+  },
+  {
+    "folder": "solutions/Week2-15-146. LRU Cache",
+    "title": "LRU Cache",
+    "slug": "lru-cache",
+    "lc_number": 146,
+    "difficulty": "Medium",
+    "topic": "Linked List",
+    "week": 2,
+    "url": "https://leetcode.com/problems/lru-cache/"
+  },
+  {
+    "folder": "solutions/Week2-16-230. Kth Smallest Element in a BST",
+    "title": "Kth Smallest Element in a BST",
+    "slug": "kth-smallest-element-in-a-bst",
+    "lc_number": 230,
+    "difficulty": "Medium",
+    "topic": "Binary Search Tree",
+    "week": 2,
+    "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/"
+  },
+  {
+    "folder": "solutions/Week2-17-739. Daily Temperatures",
+    "title": "Daily Temperatures",
+    "slug": "daily-temperatures",
+    "lc_number": 739,
+    "difficulty": "Medium",
+    "topic": "Stack",
+    "week": 2,
+    "url": "https://leetcode.com/problems/daily-temperatures/"
+  },
+  {
+    "folder": "solutions/Week2-18-198. House Robber",
+    "title": "House Robber",
+    "slug": "house-robber",
+    "lc_number": 198,
+    "difficulty": "Medium",
+    "topic": "Dynamic Programming",
+    "week": 2,
+    "url": "https://leetcode.com/problems/house-robber/"
+  },
+  {
+    "folder": "solutions/Week2-19-134. Gas Station",
+    "title": "Gas Station",
+    "slug": "gas-station",
+    "lc_number": 134,
+    "difficulty": "Medium",
+    "topic": "Array",
+    "week": 2,
+    "url": "https://leetcode.com/problems/gas-station/"
+  },
+  {
+    "folder": "solutions/Week2-20-31. Next Permutation",
+    "title": "Next Permutation",
+    "slug": "next-permutation",
+    "lc_number": 31,
+    "difficulty": "Medium",
+    "topic": "Recursion",
+    "week": 2,
+    "url": "https://leetcode.com/problems/next-permutation/"
+  },
+  {
+    "folder": "solutions/Week2-21-36. Valid Sudoku",
+    "title": "Valid Sudoku",
+    "slug": "valid-sudoku",
+    "lc_number": 36,
+    "difficulty": "Medium",
+    "topic": "Matrix",
+    "week": 2,
+    "url": "https://leetcode.com/problems/valid-sudoku/"
+  },
+  {
+    "folder": "solutions/Week2-22-49. Group Anagrams",
+    "title": "Group Anagrams",
+    "slug": "group-anagrams",
+    "lc_number": 49,
+    "difficulty": "Medium",
+    "topic": "String",
+    "week": 2,
+    "url": "https://leetcode.com/problems/group-anagrams/"
+  },
+  {
+    "folder": "solutions/Week2-23-152. Maximum Product Subarray",
+    "title": "Maximum Product Subarray",
+    "slug": "maximum-product-subarray",
+    "lc_number": 152,
+    "difficulty": "Medium",
+    "topic": "Dynamic Programming",
+    "week": 2,
+    "url": "https://leetcode.com/problems/maximum-product-subarray/"
+  },
+  {
+    "folder": "solutions/Week2-24-211. Design Add and Search Words Data Structure",
+    "title": "Design Add and Search Words Data Structure",
+    "slug": "design-add-and-search-words-data-structure",
+    "lc_number": 211,
+    "difficulty": "Medium",
+    "topic": "Trie",
+    "week": 2,
+    "url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/"
+  },
+  {
+    "folder": "solutions/Week2-25-417. Pacific Atlantic Water Flow",
+    "title": "Pacific Atlantic Water Flow",
+    "slug": "pacific-atlantic-water-flow",
+    "lc_number": 417,
+    "difficulty": "Medium",
+    "topic": "Graph",
+    "week": 2,
+    "url": "https://leetcode.com/problems/pacific-atlantic-water-flow/"
+  },
+  {
+    "folder": "solutions/Week2-26-19. Remove Nth Node From End of List",
+    "title": "Remove Nth Node From End of List",
+    "slug": "remove-nth-node-from-end-of-list",
+    "lc_number": 19,
+    "difficulty": "Medium",
+    "topic": "Linked List",
+    "week": 2,
+    "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/"
+  },
+  {
+    "folder": "solutions/Week2-27-1730. Shortest Path to Get Food",
+    "title": "Shortest Path to Get Food",
+    "slug": "shortest-path-to-get-food",
+    "lc_number": 1730,
+    "difficulty": "Medium",
+    "topic": "Graph",
+    "week": 2,
+    "url": "https://leetcode.com/problems/shortest-path-to-get-food/"
+  },
+  {
+    "folder": "solutions/Week2-28-287. Find the Duplicate Number",
+    "title": "Find the Duplicate Number",
+    "slug": "find-the-duplicate-number",
+    "lc_number": 287,
+    "difficulty": "Medium",
+    "topic": "Binary",
+    "week": 2,
+    "url": "https://leetcode.com/problems/find-the-duplicate-number/"
+  },
+  {
+    "folder": "solutions/Week2-29-692. Top K Frequent Words",
+    "title": "Top K Frequent Words",
+    "slug": "top-k-frequent-words",
+    "lc_number": 692,
+    "difficulty": "Medium",
+    "topic": "Heap",
+    "week": 2,
+    "url": "https://leetcode.com/problems/top-k-frequent-words/"
+  },
+  {
+    "folder": "solutions/Week2-30-300. Longest Increasing Subsequence",
+    "title": "Longest Increasing Subsequence",
+    "slug": "longest-increasing-subsequence",
+    "lc_number": 300,
+    "difficulty": "Medium",
+    "topic": "Dynamic Programming",
+    "week": 2,
+    "url": "https://leetcode.com/problems/longest-increasing-subsequence/"
+  },
+  {
+    "folder": "solutions/Week2-31-261. Graph Valid Tree",
+    "title": "Graph Valid Tree",
+    "slug": "graph-valid-tree",
+    "lc_number": 261,
+    "difficulty": "Medium",
+    "topic": "Graph",
+    "week": 2,
+    "url": "https://leetcode.com/problems/graph-valid-tree/"
+  },
+  {
+    "folder": "solutions/Week2-32-210. Course Schedule II",
+    "title": "Course Schedule II",
+    "slug": "course-schedule-ii",
+    "lc_number": 210,
+    "difficulty": "Medium",
+    "topic": "Graph",
+    "week": 2,
+    "url": "https://leetcode.com/problems/course-schedule-ii/"
+  },
+  {
+    "folder": "solutions/Week2-33-24. Swap Nodes in Pairs",
+    "title": "Swap Nodes in Pairs",
+    "slug": "swap-nodes-in-pairs",
+    "lc_number": 24,
+    "difficulty": "Medium",
+    "topic": "Linked List",
+    "week": 2,
+    "url": "https://leetcode.com/problems/swap-nodes-in-pairs/"
+  },
+  {
+    "folder": "solutions/Week2-34-113. Path Sum II",
+    "title": "Path Sum II",
+    "slug": "path-sum-ii",
+    "lc_number": 113,
+    "difficulty": "Medium",
+    "topic": "Binary Tree",
+    "week": 2,
+    "url": "https://leetcode.com/problems/path-sum-ii/"
+  },
+  {
+    "folder": "solutions/Week2-35-128. Longest Consecutive Sequence",
+    "title": "Longest Consecutive Sequence",
+    "slug": "longest-consecutive-sequence",
+    "lc_number": 128,
+    "difficulty": "Medium",
+    "topic": "Array",
+    "week": 2,
+    "url": "https://leetcode.com/problems/longest-consecutive-sequence/"
+  },
+  {
+    "folder": "solutions/Week2-36-189. Rotate Array",
+    "title": "Rotate Array",
+    "slug": "rotate-array",
+    "lc_number": 189,
+    "difficulty": "Medium",
+    "topic": "Array",
+    "week": 2,
+    "url": "https://leetcode.com/problems/rotate-array/"
+  },
+  {
+    "folder": "solutions/Week2-37-328. Odd Even Linked List",
+    "title": "Odd Even Linked List",
+    "slug": "odd-even-linked-list",
+    "lc_number": 328,
+    "difficulty": "Medium",
+    "topic": "Linked List",
+    "week": 2,
+    "url": "https://leetcode.com/problems/odd-even-linked-list/"
+  },
+  {
+    "folder": "solutions/Week2-38-394. Decode String",
+    "title": "Decode String",
+    "slug": "decode-string",
+    "lc_number": 394,
+    "difficulty": "Medium",
+    "topic": "Stack",
+    "week": 2,
+    "url": "https://leetcode.com/problems/decode-string/"
+  },
+  {
+    "folder": "solutions/Week2-39-525. Contiguous Array",
+    "title": "Contiguous Array",
+    "slug": "contiguous-array",
+    "lc_number": 525,
+    "difficulty": "Medium",
+    "topic": "Array",
+    "week": 2,
+    "url": "https://leetcode.com/problems/contiguous-array/"
+  },
+  {
+    "folder": "solutions/Week2-40-662. Maximum Width of Binary Tree",
+    "title": "Maximum Width of Binary Tree",
+    "slug": "maximum-width-of-binary-tree",
+    "lc_number": 662,
+    "difficulty": "Medium",
+    "topic": "Binary Tree",
+    "week": 2,
+    "url": "https://leetcode.com/problems/maximum-width-of-binary-tree/"
+  },
+  {
+    "folder": "solutions/Week2-41-658. Find K Closest Elements",
+    "title": "Find K Closest Elements",
+    "slug": "find-k-closest-elements",
+    "lc_number": 658,
+    "difficulty": "Medium",
+    "topic": "Heap",
+    "week": 2,
+    "url": "https://leetcode.com/problems/find-k-closest-elements/"
+  },
+  {
+    "folder": "solutions/Week2-42-424. Longest Repeating Character Replacement",
+    "title": "Longest Repeating Character Replacement",
+    "slug": "longest-repeating-character-replacement",
+    "lc_number": 424,
+    "difficulty": "Medium",
+    "topic": "String",
+    "week": 2,
+    "url": "https://leetcode.com/problems/longest-repeating-character-replacement/"
+  },
+  {
+    "folder": "solutions/Week2-43-127. Word Ladder",
+    "title": "Word Ladder",
+    "slug": "word-ladder",
+    "lc_number": 127,
+    "difficulty": "Hard",
+    "topic": "Graph",
+    "week": 2,
+    "url": "https://leetcode.com/problems/word-ladder/"
+  },
+  {
+    "folder": "solutions/Week2-44-224. Basic Calculator",
+    "title": "Basic Calculator",
+    "slug": "basic-calculator",
+    "lc_number": 224,
+    "difficulty": "Hard",
+    "topic": "Stack",
+    "week": 2,
+    "url": "https://leetcode.com/problems/basic-calculator/"
+  },
+  {
+    "folder": "solutions/Week2-45-1235. Maximum Profit in Job Scheduling",
+    "title": "Maximum Profit in Job Scheduling",
+    "slug": "maximum-profit-in-job-scheduling",
+    "lc_number": 1235,
+    "difficulty": "Hard",
+    "topic": "Binary Search",
+    "week": 2,
+    "url": "https://leetcode.com/problems/maximum-profit-in-job-scheduling/"
+  },
+  {
+    "folder": "solutions/Week2-46-23. Merge k Sorted Lists",
+    "title": "Merge k Sorted Lists",
+    "slug": "merge-k-sorted-lists",
+    "lc_number": 23,
+    "difficulty": "Hard",
+    "topic": "Heap",
+    "week": 2,
+    "url": "https://leetcode.com/problems/merge-k-sorted-lists/"
+  },
+  {
+    "folder": "solutions/Week2-47-84. Largest Rectangle in Histogram",
+    "title": "Largest Rectangle in Histogram",
+    "slug": "largest-rectangle-in-histogram",
+    "lc_number": 84,
+    "difficulty": "Hard",
+    "topic": "Stack",
+    "week": 2,
+    "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/"
+  },
+  {
+    "folder": "solutions/Week2-48-124. Binary Tree Maximum Path Sum",
+    "title": "Binary Tree Maximum Path Sum",
+    "slug": "binary-tree-maximum-path-sum",
+    "lc_number": 124,
+    "difficulty": "Hard",
+    "topic": "Binary Tree",
+    "week": 2,
+    "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/"
+  },
+  {
+    "folder": "solutions/Week2-49-895. Maximum Frequency Stack",
+    "title": "Maximum Frequency Stack",
+    "slug": "maximum-frequency-stack",
+    "lc_number": 895,
+    "difficulty": "Hard",
+    "topic": "Stack",
+    "week": 2,
+    "url": "https://leetcode.com/problems/maximum-frequency-stack/"
+  },
+  {
+    "folder": "solutions/Week2-50-4. Median of Two Sorted Arrays",
+    "title": "Median of Two Sorted Arrays",
+    "slug": "median-of-two-sorted-arrays",
+    "lc_number": 4,
+    "difficulty": "Hard",
+    "topic": "Binary Search",
+    "week": 2,
+    "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/"
+  },
+  {
+    "folder": "solutions/Week3-01-100. Same Tree",
+    "title": "Same Tree",
+    "slug": "same-tree",
+    "lc_number": 100,
+    "difficulty": "Easy",
+    "topic": "Binary Tree",
+    "week": 3,
+    "url": "https://leetcode.com/problems/same-tree/"
+  },
+  {
+    "folder": "solutions/Week3-02-191. Number of 1 Bits",
+    "title": "Number of 1 Bits",
+    "slug": "number-of-1-bits",
+    "lc_number": 191,
+    "difficulty": "Easy",
+    "topic": "Binary",
+    "week": 3,
+    "url": "https://leetcode.com/problems/number-of-1-bits/"
+  },
+  {
+    "folder": "solutions/Week3-03-14. Longest Common Prefix",
+    "title": "Longest Common Prefix",
+    "slug": "longest-common-prefix",
+    "lc_number": 14,
+    "difficulty": "Easy",
+    "topic": "String",
+    "week": 3,
+    "url": "https://leetcode.com/problems/longest-common-prefix/"
+  },
+  {
+    "folder": "solutions/Week3-04-136. Single Number",
+    "title": "Single Number",
+    "slug": "single-number",
+    "lc_number": 136,
+    "difficulty": "Easy",
+    "topic": "Binary",
+    "week": 3,
+    "url": "https://leetcode.com/problems/single-number/"
+  },
+  {
+    "folder": "solutions/Week3-05-234. Palindrome Linked List",
+    "title": "Palindrome Linked List",
+    "slug": "palindrome-linked-list",
+    "lc_number": 234,
+    "difficulty": "Easy",
+    "topic": "Linked List",
+    "week": 3,
+    "url": "https://leetcode.com/problems/palindrome-linked-list/"
+  },
+  {
+    "folder": "solutions/Week3-06-283. Move Zeroes",
+    "title": "Move Zeroes",
+    "slug": "move-zeroes",
+    "lc_number": 283,
+    "difficulty": "Easy",
+    "topic": "Array",
+    "week": 3,
+    "url": "https://leetcode.com/problems/move-zeroes/"
+  },
+  {
+    "folder": "solutions/Week3-07-101. Symmetric Tree",
+    "title": "Symmetric Tree",
+    "slug": "symmetric-tree",
+    "lc_number": 101,
+    "difficulty": "Easy",
+    "topic": "Binary Tree",
+    "week": 3,
+    "url": "https://leetcode.com/problems/symmetric-tree/"
+  },
+  {
+    "folder": "solutions/Week3-08-268. Missing Number",
+    "title": "Missing Number",
+    "slug": "missing-number",
+    "lc_number": 268,
+    "difficulty": "Easy",
+    "topic": "Binary",
+    "week": 3,
+    "url": "https://leetcode.com/problems/missing-number/"
+  },
+  {
+    "folder": "solutions/Week3-09-9. Palindrome Number",
+    "title": "Palindrome Number",
+    "slug": "palindrome-number",
+    "lc_number": 9,
+    "difficulty": "Easy",
+    "topic": "Math",
+    "week": 3,
+    "url": "https://leetcode.com/problems/palindrome-number/"
+  },
+  {
+    "folder": "solutions/Week3-10-108. Convert Sorted Array to Binary Search Tree",
+    "title": "Convert Sorted Array to Binary Search Tree",
+    "slug": "convert-sorted-array-to-binary-search-tree",
+    "lc_number": 108,
+    "difficulty": "Easy",
+    "topic": "Binary Search Tree",
+    "week": 3,
+    "url": "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/"
+  },
+  {
+    "folder": "solutions/Week3-11-190. Reverse Bits",
+    "title": "Reverse Bits",
+    "slug": "reverse-bits",
+    "lc_number": 190,
+    "difficulty": "Easy",
+    "topic": "Binary",
+    "week": 3,
+    "url": "https://leetcode.com/problems/reverse-bits/"
+  },
+  {
+    "folder": "solutions/Week3-12-572. Subtree of Another Tree",
+    "title": "Subtree of Another Tree",
+    "slug": "subtree-of-another-tree",
+    "lc_number": 572,
+    "difficulty": "Easy",
+    "topic": "Binary Tree",
+    "week": 3,
+    "url": "https://leetcode.com/problems/subtree-of-another-tree/"
+  },
+  {
+    "folder": "solutions/Week3-13-977. Squares of a Sorted Array",
+    "title": "Squares of a Sorted Array",
+    "slug": "squares-of-a-sorted-array",
+    "lc_number": 977,
+    "difficulty": "Easy",
+    "topic": "Array",
+    "week": 3,
+    "url": "https://leetcode.com/problems/squares-of-a-sorted-array/"
+  },
+  {
+    "folder": "solutions/Week3-14-285. Inorder Successor in BST",
+    "title": "Inorder Successor in BST",
+    "slug": "inorder-successor-in-bst",
+    "lc_number": 285,
+    "difficulty": "Medium",
+    "topic": "Binary Search Tree",
+    "week": 3,
+    "url": "https://leetcode.com/problems/inorder-successor-in-bst/"
+  },
+  {
+    "folder": "solutions/Week3-15-55. Jump Game",
+    "title": "Jump Game",
+    "slug": "jump-game",
+    "lc_number": 55,
+    "difficulty": "Medium",
+    "topic": "Dynamic Programming",
+    "week": 3,
+    "url": "https://leetcode.com/problems/jump-game/"
+  },
+  {
+    "folder": "solutions/Week3-16-2. Add Two Numbers",
+    "title": "Add Two Numbers",
+    "slug": "add-two-numbers",
+    "lc_number": 2,
+    "difficulty": "Medium",
+    "topic": "Linked List",
+    "week": 3,
+    "url": "https://leetcode.com/problems/add-two-numbers/"
+  },
+  {
+    "folder": "solutions/Week3-17-22. Generate Parentheses",
+    "title": "Generate Parentheses",
+    "slug": "generate-parentheses",
+    "lc_number": 22,
+    "difficulty": "Medium",
+    "topic": "Recursion",
+    "week": 3,
+    "url": "https://leetcode.com/problems/generate-parentheses/"
+  },
+  {
+    "folder": "solutions/Week3-18-148. Sort List",
+    "title": "Sort List",
+    "slug": "sort-list",
+    "lc_number": 148,
+    "difficulty": "Medium",
+    "topic": "Linked List",
+    "week": 3,
+    "url": "https://leetcode.com/problems/sort-list/"
+  },
+  {
+    "folder": "solutions/Week3-19-323. Number of Connected Components in an Undirected Graph",
+    "title": "Number of Connected Components in an Undirected Graph",
+    "slug": "number-of-connected-components-in-an-undirected-graph",
+    "lc_number": 323,
+    "difficulty": "Medium",
+    "topic": "Graph",
+    "week": 3,
+    "url": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/"
+  },
+  {
+    "folder": "solutions/Week3-20-1197. Minimum Knight Moves",
+    "title": "Minimum Knight Moves",
+    "slug": "minimum-knight-moves",
+    "lc_number": 1197,
+    "difficulty": "Medium",
+    "topic": "Graph",
+    "week": 3,
+    "url": "https://leetcode.com/problems/minimum-knight-moves/"
+  },
+  {
+    "folder": "solutions/Week3-21-560. Subarray Sum Equals K",
+    "title": "Subarray Sum Equals K",
+    "slug": "subarray-sum-equals-k",
+    "lc_number": 560,
+    "difficulty": "Medium",
+    "topic": "Array",
+    "week": 3,
+    "url": "https://leetcode.com/problems/subarray-sum-equals-k/"
+  },
+  {
+    "folder": "solutions/Week3-22-735. Asteroid Collision",
+    "title": "Asteroid Collision",
+    "slug": "asteroid-collision",
+    "lc_number": 735,
+    "difficulty": "Medium",
+    "topic": "Stack",
+    "week": 3,
+    "url": "https://leetcode.com/problems/asteroid-collision/"
+  },
+  {
+    "folder": "solutions/Week3-23-528. Random Pick with Weight",
+    "title": "Random Pick with Weight",
+    "slug": "random-pick-with-weight",
+    "lc_number": 528,
+    "difficulty": "Medium",
+    "topic": "Math",
+    "week": 3,
+    "url": "https://leetcode.com/problems/random-pick-with-weight/"
+  },
+  {
+    "folder": "solutions/Week3-24-215. Kth Largest Element in an Array",
+    "title": "Kth Largest Element in an Array",
+    "slug": "kth-largest-element-in-an-array",
+    "lc_number": 215,
+    "difficulty": "Medium",
+    "topic": "Heap",
+    "week": 3,
+    "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/"
+  },
+  {
+    "folder": "solutions/Week3-25-221. Maximal Square",
+    "title": "Maximal Square",
+    "slug": "maximal-square",
+    "lc_number": 221,
+    "difficulty": "Medium",
+    "topic": "Dynamic Programming",
+    "week": 3,
+    "url": "https://leetcode.com/problems/maximal-square/"
+  },
+  {
+    "folder": "solutions/Week3-26-48. Rotate Image",
+    "title": "Rotate Image",
+    "slug": "rotate-image",
+    "lc_number": 48,
+    "difficulty": "Medium",
+    "topic": "Matrix",
+    "week": 3,
+    "url": "https://leetcode.com/problems/rotate-image/"
+  },
+  {
+    "folder": "solutions/Week3-27-103. Binary Tree Zigzag Level Order Traversal",
+    "title": "Binary Tree Zigzag Level Order Traversal",
+    "slug": "binary-tree-zigzag-level-order-traversal",
+    "lc_number": 103,
+    "difficulty": "Medium",
+    "topic": "Binary Tree",
+    "week": 3,
+    "url": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/"
+  },
+  {
+    "folder": "solutions/Week3-28-362. Design Hit Counter",
+    "title": "Design Hit Counter",
+    "slug": "design-hit-counter",
+    "lc_number": 362,
+    "difficulty": "Medium",
+    "topic": "Queue",
+    "week": 3,
+    "url": "https://leetcode.com/problems/design-hit-counter/"
+  },
+  {
+    "folder": "solutions/Week3-29-437. Path Sum III",
+    "title": "Path Sum III",
+    "slug": "path-sum-iii",
+    "lc_number": 437,
+    "difficulty": "Medium",
+    "topic": "Binary Tree",
+    "week": 3,
+    "url": "https://leetcode.com/problems/path-sum-iii/"
+  },
+  {
+    "folder": "solutions/Week3-30-50. Pow(x, n)",
+    "title": "Pow(x, n)",
+    "slug": "powx-n",
+    "lc_number": 50,
+    "difficulty": "Medium",
+    "topic": "Math",
+    "week": 3,
+    "url": "https://leetcode.com/problems/powx-n/"
+  },
+  {
+    "folder": "solutions/Week3-31-74. Search a 2D Matrix",
+    "title": "Search a 2D Matrix",
+    "slug": "search-a-2d-matrix",
+    "lc_number": 74,
+    "difficulty": "Medium",
+    "topic": "Binary Search",
+    "week": 3,
+    "url": "https://leetcode.com/problems/search-a-2d-matrix/"
+  },
+  {
+    "folder": "solutions/Week3-32-179. Largest Number",
+    "title": "Largest Number",
+    "slug": "largest-number",
+    "lc_number": 179,
+    "difficulty": "Medium",
+    "topic": "String",
+    "week": 3,
+    "url": "https://leetcode.com/problems/largest-number/"
+  },
+  {
+    "folder": "solutions/Week3-33-91. Decode Ways",
+    "title": "Decode Ways",
+    "slug": "decode-ways",
+    "lc_number": 91,
+    "difficulty": "Medium",
+    "topic": "Dynamic Programming",
+    "week": 3,
+    "url": "https://leetcode.com/problems/decode-ways/"
+  },
+  {
+    "folder": "solutions/Week3-34-253. Meeting Rooms II",
+    "title": "Meeting Rooms II",
+    "slug": "meeting-rooms-ii",
+    "lc_number": 253,
+    "difficulty": "Medium",
+    "topic": "Array",
+    "week": 3,
+    "url": "https://leetcode.com/problems/meeting-rooms-ii/"
+  },
+  {
+    "folder": "solutions/Week3-35-7. Reverse Integer",
+    "title": "Reverse Integer",
+    "slug": "reverse-integer",
+    "lc_number": 7,
+    "difficulty": "Medium",
+    "topic": "Math",
+    "week": 3,
+    "url": "https://leetcode.com/problems/reverse-integer/"
+  },
+  {
+    "folder": "solutions/Week3-36-73. Set Matrix Zeroes",
+    "title": "Set Matrix Zeroes",
+    "slug": "set-matrix-zeroes",
+    "lc_number": 73,
+    "difficulty": "Medium",
+    "topic": "Matrix",
+    "week": 3,
+    "url": "https://leetcode.com/problems/set-matrix-zeroes/"
+  },
+  {
+    "folder": "solutions/Week3-37-143. Reorder List",
+    "title": "Reorder List",
+    "slug": "reorder-list",
+    "lc_number": 143,
+    "difficulty": "Medium",
+    "topic": "Linked List",
+    "week": 3,
+    "url": "https://leetcode.com/problems/reorder-list/"
+  },
+  {
+    "folder": "solutions/Week3-38-271. Encode and Decode Strings",
+    "title": "Encode and Decode Strings",
+    "slug": "encode-and-decode-strings",
+    "lc_number": 271,
+    "difficulty": "Medium",
+    "topic": "String",
+    "week": 3,
+    "url": "https://leetcode.com/problems/encode-and-decode-strings/"
+  },
+  {
+    "folder": "solutions/Week3-39-787. Cheapest Flights Within K Stops",
+    "title": "Cheapest Flights Within K Stops",
+    "slug": "cheapest-flights-within-k-stops",
+    "lc_number": 787,
+    "difficulty": "Medium",
+    "topic": "Graph",
+    "week": 3,
+    "url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/"
+  },
+  {
+    "folder": "solutions/Week3-40-863. All Nodes Distance K in Binary Tree",
+    "title": "All Nodes Distance K in Binary Tree",
+    "slug": "all-nodes-distance-k-in-binary-tree",
+    "lc_number": 863,
+    "difficulty": "Medium",
+    "topic": "Binary Tree",
+    "week": 3,
+    "url": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/"
+  },
+  {
+    "folder": "solutions/Week3-41-16. 3Sum Closest",
+    "title": "3Sum Closest",
+    "slug": "3sum-closest",
+    "lc_number": 16,
+    "difficulty": "Medium",
+    "topic": "Array",
+    "week": 3,
+    "url": "https://leetcode.com/problems/3sum-closest/"
+  },
+  {
+    "folder": "solutions/Week3-42-61. Rotate List",
+    "title": "Rotate List",
+    "slug": "rotate-list",
+    "lc_number": 61,
+    "difficulty": "Medium",
+    "topic": "Linked List",
+    "week": 3,
+    "url": "https://leetcode.com/problems/rotate-list/"
+  },
+  {
+    "folder": "solutions/Week3-43-153. Find Minimum in Rotated Sorted Array",
+    "title": "Find Minimum in Rotated Sorted Array",
+    "slug": "find-minimum-in-rotated-sorted-array",
+    "lc_number": 153,
+    "difficulty": "Medium",
+    "topic": "Binary Search",
+    "week": 3,
+    "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/"
+  },
+  {
+    "folder": "solutions/Week3-44-227. Basic Calculator II",
+    "title": "Basic Calculator II",
+    "slug": "basic-calculator-ii",
+    "lc_number": 227,
+    "difficulty": "Medium",
+    "topic": "Stack",
+    "week": 3,
+    "url": "https://leetcode.com/problems/basic-calculator-ii/"
+  },
+  {
+    "folder": "solutions/Week3-45-329. Longest Increasing Path in a Matrix",
+    "title": "Longest Increasing Path in a Matrix",
+    "slug": "longest-increasing-path-in-a-matrix",
+    "lc_number": 329,
+    "difficulty": "Hard",
+    "topic": "Graph",
+    "week": 3,
+    "url": "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/"
+  },
+  {
+    "folder": "solutions/Week3-46-32. Longest Valid Parentheses",
+    "title": "Longest Valid Parentheses",
+    "slug": "longest-valid-parentheses",
+    "lc_number": 32,
+    "difficulty": "Hard",
+    "topic": "Stack",
+    "week": 3,
+    "url": "https://leetcode.com/problems/longest-valid-parentheses/"
+  },
+  {
+    "folder": "solutions/Week3-47-588. Design In-Memory File System",
+    "title": "Design In-Memory File System",
+    "slug": "design-in-memory-file-system",
+    "lc_number": 588,
+    "difficulty": "Hard",
+    "topic": "Trie",
+    "week": 3,
+    "url": "https://leetcode.com/problems/design-in-memory-file-system/"
+  },
+  {
+    "folder": "solutions/Week3-48-759. Employee Free Time",
+    "title": "Employee Free Time",
+    "slug": "employee-free-time",
+    "lc_number": 759,
+    "difficulty": "Hard",
+    "topic": "Array",
+    "week": 3,
+    "url": "https://leetcode.com/problems/employee-free-time/"
+  },
+  {
+    "folder": "solutions/Week3-49-212. Word Search II",
+    "title": "Word Search II",
+    "slug": "word-search-ii",
+    "lc_number": 212,
+    "difficulty": "Hard",
+    "topic": "Graph",
+    "week": 3,
+    "url": "https://leetcode.com/problems/word-search-ii/"
+  },
+  {
+    "folder": "solutions/Week3-50-269. Alien Dictionary",
+    "title": "Alien Dictionary",
+    "slug": "alien-dictionary",
+    "lc_number": 269,
+    "difficulty": "Hard",
+    "topic": "Graph",
+    "week": 3,
+    "url": "https://leetcode.com/problems/alien-dictionary/"
+  },
+  {
+    "folder": "solutions/Week3-51-815. Bus Routes",
+    "title": "Bus Routes",
+    "slug": "bus-routes",
+    "lc_number": 815,
+    "difficulty": "Hard",
+    "topic": "Graph",
+    "week": 3,
+    "url": "https://leetcode.com/problems/bus-routes/"
+  },
+  {
+    "folder": "solutions/Week3-52-239. Sliding Window Maximum",
+    "title": "Sliding Window Maximum",
+    "slug": "sliding-window-maximum",
+    "lc_number": 239,
+    "difficulty": "Hard",
+    "topic": "Array",
+    "week": 3,
+    "url": "https://leetcode.com/problems/sliding-window-maximum/"
+  },
+  {
+    "folder": "solutions/Week4-01-377. Combination Sum IV",
+    "title": "Combination Sum IV",
+    "slug": "combination-sum-iv",
+    "lc_number": 377,
+    "difficulty": "Medium",
+    "topic": "Dynamic Programming",
+    "week": 4,
+    "url": "https://leetcode.com/problems/combination-sum-iv/"
+  },
+  {
+    "folder": "solutions/Week4-02-380. Insert Delete GetRandom O(1)",
+    "title": "Insert Delete GetRandom O(1)",
+    "slug": "insert-delete-getrandom-o1",
+    "lc_number": 380,
+    "difficulty": "Medium",
+    "topic": "Hash Table",
+    "week": 4,
+    "url": "https://leetcode.com/problems/insert-delete-getrandom-o1/"
+  },
+  {
+    "folder": "solutions/Week4-03-435. Non-overlapping Intervals",
+    "title": "Non-overlapping Intervals",
+    "slug": "non-overlapping-intervals",
+    "lc_number": 435,
+    "difficulty": "Medium",
+    "topic": "Array",
+    "week": 4,
+    "url": "https://leetcode.com/problems/non-overlapping-intervals/"
+  },
+  {
+    "folder": "solutions/Week4-04-336. Palindrome Pairs",
+    "title": "Palindrome Pairs",
+    "slug": "palindrome-pairs",
+    "lc_number": 336,
+    "difficulty": "Hard",
+    "topic": "String",
+    "week": 4,
+    "url": "https://leetcode.com/problems/palindrome-pairs/"
+  },
+  {
+    "folder": "solutions/Week4-05-25. Reverse Nodes in k-Group",
+    "title": "Reverse Nodes in k-Group",
+    "slug": "reverse-nodes-in-k-group",
+    "lc_number": 25,
+    "difficulty": "Hard",
+    "topic": "Linked List",
+    "week": 4,
+    "url": "https://leetcode.com/problems/reverse-nodes-in-k-group/"
+  },
+  {
+    "folder": "solutions/Week4-06-37. Sudoku Solver",
+    "title": "Sudoku Solver",
+    "slug": "sudoku-solver",
+    "lc_number": 37,
+    "difficulty": "Hard",
+    "topic": "Matrix",
+    "week": 4,
+    "url": "https://leetcode.com/problems/sudoku-solver/"
+  },
+  {
+    "folder": "solutions/Week4-07-41. First Missing Positive",
+    "title": "First Missing Positive",
+    "slug": "first-missing-positive",
+    "lc_number": 41,
+    "difficulty": "Hard",
+    "topic": "Hash Table",
+    "week": 4,
+    "url": "https://leetcode.com/problems/first-missing-positive/"
+  },
+  {
+    "folder": "solutions/Week4-08-51. N-Queens",
+    "title": "N-Queens",
+    "slug": "n-queens",
+    "lc_number": 51,
+    "difficulty": "Hard",
+    "topic": "Recursion",
+    "week": 4,
+    "url": "https://leetcode.com/problems/n-queens/"
+  },
+  {
+    "folder": "solutions/Week4-09-632. Smallest Range Covering Elements from K Lists",
+    "title": "Smallest Range Covering Elements from K Lists",
+    "slug": "smallest-range-covering-elements-from-k-lists",
+    "lc_number": 632,
+    "difficulty": "Hard",
+    "topic": "Heap",
+    "week": 4,
+    "url": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/"
+  },
+  {
+    "folder": "solutions/Extra.House Robber II",
+    "title": "House Robber II",
+    "slug": "house-robber-ii",
+    "lc_number": 0,
+    "difficulty": "",
+    "topic": "",
+    "week": 0,
+    "url": "https://leetcode.com/problems/house-robber-ii/"
+  },
+  {
+    "folder": "solutions/Extra.Longest Common Subsequence",
+    "title": "Longest Common Subsequence",
+    "slug": "longest-common-subsequence",
+    "lc_number": 0,
+    "difficulty": "",
+    "topic": "",
+    "week": 0,
+    "url": "https://leetcode.com/problems/longest-common-subsequence/"
+  },
+  {
+    "folder": "solutions/Extra.Palindromic Substrings",
+    "title": "Palindromic Substrings",
+    "slug": "palindromic-substrings",
+    "lc_number": 0,
+    "difficulty": "",
+    "topic": "",
+    "week": 0,
+    "url": "https://leetcode.com/problems/palindromic-substrings/"
+  },
+  {
+    "folder": "solutions/Extra.Sum of Two Integers",
+    "title": "Sum of Two Integers",
+    "slug": "sum-of-two-integers",
+    "lc_number": 0,
+    "difficulty": "",
+    "topic": "",
+    "week": 0,
+    "url": "https://leetcode.com/problems/sum-of-two-integers/"
+  },
+  {
+    "folder": "solutions/Extra.Top K Frequent Elements",
+    "title": "Top K Frequent Elements",
+    "slug": "top-k-frequent-elements",
+    "lc_number": 0,
+    "difficulty": "",
+    "topic": "",
+    "week": 0,
+    "url": "https://leetcode.com/problems/top-k-frequent-elements/"
+  }
+]

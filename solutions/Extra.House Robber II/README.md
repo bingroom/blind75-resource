@@ -1,57 +1,21 @@
 # House Robber II
 
-**Topic:** Dynamic Programming
+**Topic:** Unknown
+- **LeetCode 連結:** [0. House Robber II](https://leetcode.com/problems/house-robber-ii/)
+- **難度:** Medium
 
-- **LeetCode:** [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
-- **NeetCode:** [Blind 75](https://neetcode.io/problems?list=blind75)
+## 題目描述
 
-## Description
+房屋排列成環形，相鄰房屋不能同時偷竊。給定每間房屋的金額，計算在不觸發警報的情況下能偷到的最大金額。
 
-You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed. All houses at this place are **arranged in a circle.** That means the first house is the neighbor of the last one. Meanwhile, adjacent houses have a security system connected, and **it will automatically contact the police if two adjacent houses were broken into on the same night**.
+## 解題思路
 
-Given an integer array `nums` representing the amount of money of each house, return *the maximum amount of money you can rob tonight **without alerting the police***.
+1. 環形結構意味著第一間和最後一間不能同時偷。
+2. 拆成兩個線性子問題：不偷第一間（nums[1:]）和不偷最後一間（nums[:-1]）。
+3. 對每個子問題用 House Robber I 的動態規劃求解。
+4. 取兩者的較大值為答案。
 
- 
-
-**Example 1:**
-
-```
-
-Input: nums = [2,3,2]
-Output: 3
-Explanation: You cannot rob house 1 (money = 2) and then rob house 3 (money = 2), because they are adjacent houses.
-
-```
-
-**Example 2:**
-
-```
-
-Input: nums = [1,2,3,1]
-Output: 4
-Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3).
-Total amount you can rob = 1 + 3 = 4.
-
-```
-
-**Example 3:**
-
-```
-
-Input: nums = [1,2,3]
-Output: 3
-
-```
-
- 
-
-**Constraints:**
-
-	- `1 <= nums.length <= 100`
-
-	- `0 <= nums[i] <= 1000`
-
-## Solution
+## 程式碼
 
 ```python
 # LeetCode 213. House Robber II (環狀)
@@ -78,18 +42,9 @@ class Solution:
             return cur
 
         return max(rob_range(nums[:-1]), rob_range(nums[1:]))
-
 ```
 
-## 思路
+## 複雜度分析
 
-- 環狀可拆成兩種線性：**不偷第一間**（考慮 nums[1:]）、**不偷最後一間**（考慮 nums[:-1]）。分別做 House Robber I，取較大值。
-
-## 時間 / 空間複雜度
-
-- **時間:** O(n)。
-- **空間:** O(1)。
-
-## 相關閱讀
-
-- **演算法:** DP、環狀拆成線性
+- **時間複雜度:** O(n)。
+- **空間複雜度:** O(1)。

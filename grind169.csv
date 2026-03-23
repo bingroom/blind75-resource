@@ -1,170 +1,170 @@
 number,name,slug,difficulty,topic,folder
-1,Two Sum,two-sum,Easy,Array,
-121,Best Time to Buy and Sell Stock,best-time-to-buy-and-sell-stock,Easy,Array,
-217,Contains Duplicate,contains-duplicate,Easy,Hashing,
-169,Majority Element,majority-element,Easy,Array,
-283,Move Zeroes,move-zeroes,Easy,Array,
-977,Squares of a Sorted Array,squares-of-a-sorted-array,Easy,Array,
-53,Maximum Subarray,maximum-subarray,Medium,Array,
-57,Insert Interval,insert-interval,Medium,Array,
-238,Product of Array Except Self,product-of-array-except-self,Medium,Array,
-15,3Sum,3sum,Medium,Array,
-11,Container With Most Water,container-with-most-water,Medium,Array,
-33,Search in Rotated Sorted Array,search-in-rotated-sorted-array,Medium,Array,
-56,Merge Intervals,merge-intervals,Medium,Array,
-54,Spiral Matrix,spiral-matrix,Medium,Array,
-48,Rotate Image,rotate-image,Medium,Array,
-31,Next Permutation,next-permutation,Medium,Array,
-287,Find the Duplicate Number,find-the-duplicate-number,Medium,Array,
-189,Rotate Array,rotate-array,Medium,Array,
-658,Find K Closest Elements,find-k-closest-elements,Medium,Array,
-16,3Sum Closest,3sum-closest,Medium,Array,
-73,Set Matrix Zeroes,set-matrix-zeroes,Medium,Array,
-74,Search a 2D Matrix,search-a-2d-matrix,Medium,Array,
-153,Find Minimum in Rotated Sorted Array,find-minimum-in-rotated-sorted-array,Medium,Array,
-152,Maximum Product Subarray,maximum-product-subarray,Medium,Dynamic Programming,
-42,Trapping Rain Water,trapping-rain-water,Hard,Array,
-4,Median of Two Sorted Arrays,median-of-two-sorted-arrays,Hard,Array,
-41,First Missing Positive,first-missing-positive,Hard,Array,
-20,Valid Parentheses,valid-parentheses,Easy,Stack,
-232,Implement Queue using Stacks,implement-queue-using-stacks,Easy,Stack,
-150,Evaluate Reverse Polish Notation,evaluate-reverse-polish-notation,Medium,Stack,
-155,Min Stack,min-stack,Medium,Stack,
-394,Decode String,decode-string,Medium,Stack,
-739,Daily Temperatures,daily-temperatures,Medium,Stack,
-735,Asteroid Collision,asteroid-collision,Medium,Stack,
-227,Basic Calculator II,basic-calculator-ii,Medium,Stack,
-224,Basic Calculator,basic-calculator,Hard,Stack,
-84,Largest Rectangle in Histogram,largest-rectangle-in-histogram,Hard,Stack,
-895,Maximum Frequency Stack,maximum-frequency-stack,Hard,Stack,
-239,Sliding Window Maximum,sliding-window-maximum,Hard,Stack,
-21,Merge Two Sorted Lists,merge-two-sorted-lists,Easy,Linked List,
-141,Linked List Cycle,linked-list-cycle,Easy,Linked List,
-206,Reverse Linked List,reverse-linked-list,Easy,Linked List,
-234,Palindrome Linked List,palindrome-linked-list,Easy,Linked List,
-876,Middle of the Linked List,middle-of-the-linked-list,Easy,Linked List,
-19,Remove Nth Node From End of List,remove-nth-node-from-end-of-list,Medium,Linked List,
-24,Swap Nodes in Pairs,swap-nodes-in-pairs,Medium,Linked List,
-328,Odd Even Linked List,odd-even-linked-list,Medium,Linked List,
-2,Add Two Numbers,add-two-numbers,Medium,Linked List,
-148,Sort List,sort-list,Medium,Linked List,
-143,Reorder List,reorder-list,Medium,Linked List,
-61,Rotate List,rotate-list,Medium,Linked List,
-23,Merge k Sorted Lists,merge-k-sorted-lists,Hard,Linked List,
-25,Reverse Nodes in k-Group,reverse-nodes-in-k-group,Hard,Linked List,
-242,Valid Anagram,valid-anagram,Easy,Hashing,
-383,Ransom Note,ransom-note,Easy,Hashing,
-49,Group Anagrams,group-anagrams,Medium,Hashing,
-36,Valid Sudoku,valid-sudoku,Medium,Hashing,
-146,LRU Cache,lru-cache,Medium,Hashing,
-128,Longest Consecutive Sequence,longest-consecutive-sequence,Medium,Hashing,
-525,Contiguous Array,contiguous-array,Medium,Hashing,
-560,Subarray Sum Equals K,subarray-sum-equals-k,Medium,Hashing,
-380,Insert Delete GetRandom O(1),insert-delete-getrandom-o1,Medium,Hashing,
-336,Palindrome Pairs,palindrome-pairs,Hard,Hashing,
-278,First Bad Version,first-bad-version,Easy,Binary Search,
-704,Binary Search,binary-search,Easy,Binary Search,
-981,Time Based Key-Value Store,time-based-key-value-store,Medium,Binary Search,
-528,Random Pick with Weight,random-pick-with-weight,Medium,Binary Search,
-136,Single Number,single-number,Easy,Bit Manipulation,
-191,Number of 1 Bits,number-of-1-bits,Easy,Bit Manipulation,
-338,Counting Bits,counting-bits,Easy,Bit Manipulation,
-190,Reverse Bits,reverse-bits,Easy,Bit Manipulation,
-268,Missing Number,missing-number,Easy,Bit Manipulation,
-125,Valid Palindrome,valid-palindrome,Easy,String,
-409,Longest Palindrome,longest-palindrome,Easy,String,
-13,Roman to Integer,roman-to-integer,Easy,String,
-14,Longest Common Prefix,longest-common-prefix,Easy,String,
-67,Add Binary,add-binary,Easy,String,
-844,Backspace String Compare,backspace-string-compare,Easy,String,
-9,Palindrome Number,palindrome-number,Easy,String,
-3,Longest Substring Without Repeating Characters,longest-substring-without-repeating-characters,Medium,String,
-5,Longest Palindromic Substring,longest-palindromic-substring,Medium,String,
-8,String to Integer (atoi),string-to-integer-atoi,Medium,String,
-438,Find All Anagrams in a String,find-all-anagrams-in-a-string,Medium,String,
-424,Longest Repeating Character Replacement,longest-repeating-character-replacement,Medium,String,
-271,Encode and Decode Strings,encode-and-decode-strings,Medium,String,
-7,Reverse Integer,reverse-integer,Medium,String,
-76,Minimum Window Substring,minimum-window-substring,Hard,String,
-32,Longest Valid Parentheses,longest-valid-parentheses,Hard,String,
-226,Invert Binary Tree,invert-binary-tree,Easy,Tree,
-110,Balanced Binary Tree,balanced-binary-tree,Easy,Tree,
-104,Maximum Depth of Binary Tree,maximum-depth-of-binary-tree,Easy,Tree,
-543,Diameter of Binary Tree,diameter-of-binary-tree,Easy,Tree,
-100,Same Tree,same-tree,Easy,Tree,
-101,Symmetric Tree,symmetric-tree,Easy,Tree,
-108,Convert Sorted Array to Binary Search Tree,convert-sorted-array-to-binary-search-tree,Easy,Tree,
-572,Subtree of Another Tree,subtree-of-another-tree,Easy,Tree,
-235,Lowest Common Ancestor of a Binary Search Tree,lowest-common-ancestor-of-a-binary-search-tree,Medium,Tree,
-98,Validate Binary Search Tree,validate-binary-search-tree,Medium,Tree,
-102,Binary Tree Level Order Traversal,binary-tree-level-order-traversal,Medium,Tree,
-208,Implement Trie (Prefix Tree),implement-trie-prefix-tree,Medium,Tree,
-105,Construct Binary Tree from Preorder and Inorder Traversal,construct-binary-tree-from-preorder-and-inorder-traversal,Medium,Tree,
-199,Binary Tree Right Side View,binary-tree-right-side-view,Medium,Tree,
-230,Kth Smallest Element in a BST,kth-smallest-element-in-a-bst,Medium,Tree,
-236,Lowest Common Ancestor of a Binary Tree,lowest-common-ancestor-of-a-binary-tree,Medium,Tree,
-211,Design Add and Search Words Data Structure,design-add-and-search-words-data-structure,Medium,Tree,
-113,Path Sum II,path-sum-ii,Medium,Tree,
-662,Maximum Width of Binary Tree,maximum-width-of-binary-tree,Medium,Tree,
-103,Binary Tree Zigzag Level Order Traversal,binary-tree-zigzag-level-order-traversal,Medium,Tree,
-437,Path Sum III,path-sum-iii,Medium,Tree,
-285,Inorder Successor in BST,inorder-successor-in-bst,Medium,Tree,
-310,Minimum Height Trees,minimum-height-trees,Medium,Tree,
-863,All Nodes Distance K in Binary Tree,all-nodes-distance-k-in-binary-tree,Medium,Tree,
-297,Serialize and Deserialize Binary Tree,serialize-and-deserialize-binary-tree,Hard,Tree,
-124,Binary Tree Maximum Path Sum,binary-tree-maximum-path-sum,Hard,Tree,
-212,Word Search II,word-search-ii,Hard,Tree,
-733,Flood Fill,flood-fill,Easy,Graph,
-542,01 Matrix,01-matrix,Medium,Graph,
-133,Clone Graph,clone-graph,Medium,Graph,
-200,Number of Islands,number-of-islands,Medium,Graph,
-207,Course Schedule,course-schedule,Medium,Graph,
-721,Accounts Merge,accounts-merge,Medium,Graph,
-994,Rotting Oranges,rotting-oranges,Medium,Graph,
-417,Pacific Atlantic Water Flow,pacific-atlantic-water-flow,Medium,Graph,
-210,Course Schedule II,course-schedule-ii,Medium,Graph,
-323,Number of Connected Components in an Undirected Graph,number-of-connected-components-in-an-undirected-graph,Medium,Graph,
-1197,Minimum Knight Moves,minimum-knight-moves,Medium,Graph,
-261,Graph Valid Tree,graph-valid-tree,Medium,Graph,
-787,Cheapest Flights Within K Stops,cheapest-flights-within-k-stops,Medium,Graph,
-1730,Shortest Path to Get Food,shortest-path-to-get-food,Medium,Graph,
-127,Word Ladder,word-ladder,Hard,Graph,
-269,Alien Dictionary,alien-dictionary,Hard,Graph,
-815,Bus Routes,bus-routes,Hard,Graph,
-70,Climbing Stairs,climbing-stairs,Easy,Dynamic Programming,
-322,Coin Change,coin-change,Medium,Dynamic Programming,
-139,Word Break,word-break,Medium,Dynamic Programming,
-416,Partition Equal Subset Sum,partition-equal-subset-sum,Medium,Dynamic Programming,
-198,House Robber,house-robber,Medium,Dynamic Programming,
-62,Unique Paths,unique-paths,Medium,Dynamic Programming,
-300,Longest Increasing Subsequence,longest-increasing-subsequence,Medium,Dynamic Programming,
-91,Decode Ways,decode-ways,Medium,Dynamic Programming,
-55,Jump Game,jump-game,Medium,Dynamic Programming,
-221,Maximal Square,maximal-square,Medium,Dynamic Programming,
-377,Combination Sum IV,combination-sum-iv,Medium,Dynamic Programming,
-329,Longest Increasing Path in a Matrix,longest-increasing-path-in-a-matrix,Hard,Dynamic Programming,
-1235,Maximum Profit in Job Scheduling,maximum-profit-in-job-scheduling,Hard,Dynamic Programming,
-39,Combination Sum,combination-sum,Medium,Backtracking,
-46,Permutations,permutations,Medium,Backtracking,
-17,Letter Combinations of a Phone Number,letter-combinations-of-a-phone-number,Medium,Backtracking,
-78,Subsets,subsets,Medium,Backtracking,
-79,Word Search,word-search,Medium,Backtracking,
-22,Generate Parentheses,generate-parentheses,Medium,Backtracking,
-37,Sudoku Solver,sudoku-solver,Hard,Backtracking,
-51,N-Queens,n-queens,Hard,Backtracking,
-75,Sort Colors,sort-colors,Medium,Sorting,
-973,K Closest Points to Origin,k-closest-points-to-origin,Medium,Sorting,
-252,Meeting Rooms,meeting-rooms,Easy,Sorting,
-179,Largest Number,largest-number,Medium,Sorting,
-215,Kth Largest Element in an Array,kth-largest-element-in-an-array,Medium,Sorting,
-253,Meeting Rooms II,meeting-rooms-ii,Medium,Sorting,
-692,Top K Frequent Words,top-k-frequent-words,Medium,Sorting,
-295,Find Median from Data Stream,find-median-from-data-stream,Hard,Sorting,
-759,Employee Free Time,employee-free-time,Hard,Sorting,
-632,Smallest Range Covering Elements from K Lists,smallest-range-covering-elements-from-k-lists,Hard,Sorting,
-134,Gas Station,gas-station,Medium,Greedy,
-621,Task Scheduler,task-scheduler,Medium,Greedy,
-435,Non-overlapping Intervals,non-overlapping-intervals,Medium,Greedy,
-50,Pow(x n),powx-n,Medium,Math,
-362,Design Hit Counter,design-hit-counter,Medium,Design,
-588,Design In-Memory File System,design-in-memory-file-system,Hard,Design,
+1,Two Sum,two-sum,Easy,Array,Week1-01-1. Two Sum
+20,Valid Parentheses,valid-parentheses,Easy,Stack,Week1-02-20. Valid Parentheses
+21,Merge Two Sorted Lists,merge-two-sorted-lists,Easy,Linked List,Week1-03-21. Merge Two Sorted Lists
+121,Best Time to Buy and Sell Stock,best-time-to-buy-and-sell-stock,Easy,Array,Week1-04-121. Best Time to Buy and Sell Stock
+125,Valid Palindrome,valid-palindrome,Easy,String,Week1-05-125. Valid Palindrome
+226,Invert Binary Tree,invert-binary-tree,Easy,Binary Tree,Week1-06-226. Invert Binary Tree
+242,Valid Anagram,valid-anagram,Easy,String,Week1-07-242. Valid Anagram
+704,Binary Search,binary-search,Easy,Binary Search,Week1-08-704. Binary Search
+733,Flood Fill,flood-fill,Easy,Graph,Week1-09-733. Flood Fill
+235,Lowest Common Ancestor of a Binary Search Tree,lowest-common-ancestor-of-a-binary-search-tree,Easy,Binary Search Tree,Week1-10-235. Lowest Common Ancestor of a Binary Search Tree
+110,Balanced Binary Tree,balanced-binary-tree,Easy,Binary Tree,Week1-11-110. Balanced Binary Tree
+141,Linked List Cycle,linked-list-cycle,Easy,Linked List,Week1-12-141. Linked List Cycle
+232,Implement Queue using Stacks,implement-queue-using-stacks,Easy,Stack,Week1-13-232. Implement Queue using Stacks
+278,First Bad Version,first-bad-version,Easy,Binary Search,Week1-14-278. First Bad Version
+383,Ransom Note,ransom-note,Easy,Hash Table,Week1-15-383. Ransom Note
+70,Climbing Stairs,climbing-stairs,Easy,Dynamic Programming,Week1-16-70. Climbing Stairs
+409,Longest Palindrome,longest-palindrome,Easy,String,Week1-17-409. Longest Palindrome
+206,Reverse Linked List,reverse-linked-list,Easy,Linked List,Week1-18-206. Reverse Linked List
+169,Majority Element,majority-element,Easy,Array,Week1-19-169. Majority Element
+67,Add Binary,add-binary,Easy,Binary,Week1-20-67. Add Binary
+543,Diameter of Binary Tree,diameter-of-binary-tree,Easy,Binary Tree,Week1-21-543. Diameter of Binary Tree
+876,Middle of the Linked List,middle-of-the-linked-list,Easy,Linked List,Week1-22-876. Middle of the Linked List
+53,Maximum Subarray,maximum-subarray,Medium,Dynamic Programming,Week1-23-53. Maximum Subarray
+57,Insert Interval,insert-interval,Medium,Array,Week1-24-57. Insert Interval
+542,01 Matrix,01-matrix,Medium,Graph,Week1-25-542. 01 Matrix
+973,K Closest Points to Origin,k-closest-points-to-origin,Medium,Heap,Week1-26-973. K Closest Points to Origin
+3,Longest Substring Without Repeating Characters,longest-substring-without-repeating-characters,Medium,String,Week1-27-3. Longest Substring Without Repeating Characters
+15,3Sum,3sum,Medium,Array,Week1-28-15. 3Sum
+102,Binary Tree Level Order Traversal,binary-tree-level-order-traversal,Medium,Binary Tree,Week1-29-102. Binary Tree Level Order Traversal
+133,Clone Graph,clone-graph,Medium,Graph,Week1-30-133. Clone Graph
+150,Evaluate Reverse Polish Notation,evaluate-reverse-polish-notation,Medium,Stack,Week1-31-150. Evaluate Reverse Polish Notation
+207,Course Schedule,course-schedule,Medium,Graph,Week1-32-207. Course Schedule
+208,Implement Trie (Prefix Tree),implement-trie-prefix-tree,Medium,Trie,Week1-33-208. Implement Trie (Prefix Tree)
+322,Coin Change,coin-change,Medium,Dynamic Programming,Week1-34-322. Coin Change
+238,Product of Array Except Self,product-of-array-except-self,Medium,Array,Week1-35-238. Product of Array Except Self
+155,Min Stack,min-stack,Medium,Stack,Week1-36-155. Min Stack
+98,Validate Binary Search Tree,validate-binary-search-tree,Medium,Binary Search Tree,Week1-37-98. Validate Binary Search Tree
+200,Number of Islands,number-of-islands,Medium,Graph,Week1-38-200. Number of Islands
+994,Rotting Oranges,rotting-oranges,Medium,Graph,Week1-39-994. Rotting Oranges
+33,Search in Rotated Sorted Array,search-in-rotated-sorted-array,Medium,Binary Search,Week1-40-33. Search in Rotated Sorted Array
+39,Combination Sum,combination-sum,Medium,Array,Week1-41-39. Combination Sum
+46,Permutations,permutations,Medium,Recursion,Week1-42-46. Permutations
+56,Merge Intervals,merge-intervals,Medium,Array,Week1-43-56. Merge Intervals
+236,Lowest Common Ancestor of a Binary Tree,lowest-common-ancestor-of-a-binary-tree,Medium,Binary Tree,Week1-44-236. Lowest Common Ancestor of a Binary Tree
+981,Time Based Key-Value Store,time-based-key-value-store,Medium,Binary Search,Week1-45-981. Time Based Key-Value Store
+721,Accounts Merge,accounts-merge,Medium,Graph,Week1-46-721. Accounts Merge
+75,Sort Colors,sort-colors,Medium,Array,Week1-47-75. Sort Colors
+139,Word Break,word-break,Medium,Trie,Week1-48-139. Word Break
+416,Partition Equal Subset Sum,partition-equal-subset-sum,Medium,Dynamic Programming,Week1-49-416. Partition Equal Subset Sum
+8,String to Integer (atoi),string-to-integer-atoi,Medium,String,Week1-50-8. String to Integer (atoi)
+54,Spiral Matrix,spiral-matrix,Medium,Matrix,Week1-51-54. Spiral Matrix
+78,Subsets,subsets,Medium,Recursion,Week1-52-78. Subsets
+199,Binary Tree Right Side View,binary-tree-right-side-view,Medium,Binary Tree,Week1-53-199. Binary Tree Right Side View
+5,Longest Palindromic Substring,longest-palindromic-substring,Medium,String,Week1-54-5. Longest Palindromic Substring
+76,Minimum Window Substring,minimum-window-substring,Hard,String,Week1-55-76. Minimum Window Substring
+297,Serialize and Deserialize Binary Tree,serialize-and-deserialize-binary-tree,Hard,Binary Tree,Week1-56-297. Serialize and Deserialize Binary Tree
+42,Trapping Rain Water,trapping-rain-water,Hard,Stack,Week1-57-42. Trapping Rain Water
+295,Find Median from Data Stream,find-median-from-data-stream,Hard,Heap,Week1-58-295. Find Median from Data Stream
+104,Maximum Depth of Binary Tree,maximum-depth-of-binary-tree,Easy,Binary Tree,Week2-01-104. Maximum Depth of Binary Tree
+217,Contains Duplicate,contains-duplicate,Easy,Array,Week2-02-217. Contains Duplicate
+252,Meeting Rooms,meeting-rooms,Easy,Array,Week2-03-252. Meeting Rooms
+13,Roman to Integer,roman-to-integer,Easy,Math,Week2-04-13. Roman to Integer
+844,Backspace String Compare,backspace-string-compare,Easy,Stack,Week2-05-844. Backspace String Compare
+338,Counting Bits,counting-bits,Easy,Binary,Week2-06-338. Counting Bits
+62,Unique Paths,unique-paths,Medium,Dynamic Programming,Week2-07-62. Unique Paths
+105,Construct Binary Tree from Preorder and Inorder Traversal,construct-binary-tree-from-preorder-and-inorder-traversal,Medium,Binary Tree,Week2-08-105. Construct Binary Tree from Preorder and Inorder Traversal
+11,Container With Most Water,container-with-most-water,Medium,Array,Week2-09-11. Container With Most Water
+17,Letter Combinations of a Phone Number,letter-combinations-of-a-phone-number,Medium,Recursion,Week2-10-17. Letter Combinations of a Phone Number
+79,Word Search,word-search,Medium,Graph,Week2-11-79. Word Search
+438,Find All Anagrams in a String,find-all-anagrams-in-a-string,Medium,String,Week2-12-438. Find All Anagrams in a String
+310,Minimum Height Trees,minimum-height-trees,Medium,Graph,Week2-13-310. Minimum Height Trees
+621,Task Scheduler,task-scheduler,Medium,Heap,Week2-14-621. Task Scheduler
+146,LRU Cache,lru-cache,Medium,Linked List,Week2-15-146. LRU Cache
+230,Kth Smallest Element in a BST,kth-smallest-element-in-a-bst,Medium,Binary Search Tree,Week2-16-230. Kth Smallest Element in a BST
+739,Daily Temperatures,daily-temperatures,Medium,Stack,Week2-17-739. Daily Temperatures
+198,House Robber,house-robber,Medium,Dynamic Programming,Week2-18-198. House Robber
+134,Gas Station,gas-station,Medium,Array,Week2-19-134. Gas Station
+31,Next Permutation,next-permutation,Medium,Recursion,Week2-20-31. Next Permutation
+36,Valid Sudoku,valid-sudoku,Medium,Matrix,Week2-21-36. Valid Sudoku
+49,Group Anagrams,group-anagrams,Medium,String,Week2-22-49. Group Anagrams
+152,Maximum Product Subarray,maximum-product-subarray,Medium,Dynamic Programming,Week2-23-152. Maximum Product Subarray
+211,Design Add and Search Words Data Structure,design-add-and-search-words-data-structure,Medium,Trie,Week2-24-211. Design Add and Search Words Data Structure
+417,Pacific Atlantic Water Flow,pacific-atlantic-water-flow,Medium,Graph,Week2-25-417. Pacific Atlantic Water Flow
+19,Remove Nth Node From End of List,remove-nth-node-from-end-of-list,Medium,Linked List,Week2-26-19. Remove Nth Node From End of List
+1730,Shortest Path to Get Food,shortest-path-to-get-food,Medium,Graph,Week2-27-1730. Shortest Path to Get Food
+287,Find the Duplicate Number,find-the-duplicate-number,Medium,Binary,Week2-28-287. Find the Duplicate Number
+692,Top K Frequent Words,top-k-frequent-words,Medium,Heap,Week2-29-692. Top K Frequent Words
+300,Longest Increasing Subsequence,longest-increasing-subsequence,Medium,Dynamic Programming,Week2-30-300. Longest Increasing Subsequence
+261,Graph Valid Tree,graph-valid-tree,Medium,Graph,Week2-31-261. Graph Valid Tree
+210,Course Schedule II,course-schedule-ii,Medium,Graph,Week2-32-210. Course Schedule II
+24,Swap Nodes in Pairs,swap-nodes-in-pairs,Medium,Linked List,Week2-33-24. Swap Nodes in Pairs
+113,Path Sum II,path-sum-ii,Medium,Binary Tree,Week2-34-113. Path Sum II
+128,Longest Consecutive Sequence,longest-consecutive-sequence,Medium,Array,Week2-35-128. Longest Consecutive Sequence
+189,Rotate Array,rotate-array,Medium,Array,Week2-36-189. Rotate Array
+328,Odd Even Linked List,odd-even-linked-list,Medium,Linked List,Week2-37-328. Odd Even Linked List
+394,Decode String,decode-string,Medium,Stack,Week2-38-394. Decode String
+525,Contiguous Array,contiguous-array,Medium,Array,Week2-39-525. Contiguous Array
+662,Maximum Width of Binary Tree,maximum-width-of-binary-tree,Medium,Binary Tree,Week2-40-662. Maximum Width of Binary Tree
+658,Find K Closest Elements,find-k-closest-elements,Medium,Heap,Week2-41-658. Find K Closest Elements
+424,Longest Repeating Character Replacement,longest-repeating-character-replacement,Medium,String,Week2-42-424. Longest Repeating Character Replacement
+127,Word Ladder,word-ladder,Hard,Graph,Week2-43-127. Word Ladder
+224,Basic Calculator,basic-calculator,Hard,Stack,Week2-44-224. Basic Calculator
+1235,Maximum Profit in Job Scheduling,maximum-profit-in-job-scheduling,Hard,Binary Search,Week2-45-1235. Maximum Profit in Job Scheduling
+23,Merge k Sorted Lists,merge-k-sorted-lists,Hard,Heap,Week2-46-23. Merge k Sorted Lists
+84,Largest Rectangle in Histogram,largest-rectangle-in-histogram,Hard,Stack,Week2-47-84. Largest Rectangle in Histogram
+124,Binary Tree Maximum Path Sum,binary-tree-maximum-path-sum,Hard,Binary Tree,Week2-48-124. Binary Tree Maximum Path Sum
+895,Maximum Frequency Stack,maximum-frequency-stack,Hard,Stack,Week2-49-895. Maximum Frequency Stack
+4,Median of Two Sorted Arrays,median-of-two-sorted-arrays,Hard,Binary Search,Week2-50-4. Median of Two Sorted Arrays
+100,Same Tree,same-tree,Easy,Binary Tree,Week3-01-100. Same Tree
+191,Number of 1 Bits,number-of-1-bits,Easy,Binary,Week3-02-191. Number of 1 Bits
+14,Longest Common Prefix,longest-common-prefix,Easy,String,Week3-03-14. Longest Common Prefix
+136,Single Number,single-number,Easy,Binary,Week3-04-136. Single Number
+234,Palindrome Linked List,palindrome-linked-list,Easy,Linked List,Week3-05-234. Palindrome Linked List
+283,Move Zeroes,move-zeroes,Easy,Array,Week3-06-283. Move Zeroes
+101,Symmetric Tree,symmetric-tree,Easy,Binary Tree,Week3-07-101. Symmetric Tree
+268,Missing Number,missing-number,Easy,Binary,Week3-08-268. Missing Number
+9,Palindrome Number,palindrome-number,Easy,Math,Week3-09-9. Palindrome Number
+108,Convert Sorted Array to Binary Search Tree,convert-sorted-array-to-binary-search-tree,Easy,Binary Search Tree,Week3-10-108. Convert Sorted Array to Binary Search Tree
+190,Reverse Bits,reverse-bits,Easy,Binary,Week3-11-190. Reverse Bits
+572,Subtree of Another Tree,subtree-of-another-tree,Easy,Binary Tree,Week3-12-572. Subtree of Another Tree
+977,Squares of a Sorted Array,squares-of-a-sorted-array,Easy,Array,Week3-13-977. Squares of a Sorted Array
+285,Inorder Successor in BST,inorder-successor-in-bst,Medium,Binary Search Tree,Week3-14-285. Inorder Successor in BST
+55,Jump Game,jump-game,Medium,Dynamic Programming,Week3-15-55. Jump Game
+2,Add Two Numbers,add-two-numbers,Medium,Linked List,Week3-16-2. Add Two Numbers
+22,Generate Parentheses,generate-parentheses,Medium,Recursion,Week3-17-22. Generate Parentheses
+148,Sort List,sort-list,Medium,Linked List,Week3-18-148. Sort List
+323,Number of Connected Components in an Undirected Graph,number-of-connected-components-in-an-undirected-graph,Medium,Graph,Week3-19-323. Number of Connected Components in an Undirected Graph
+1197,Minimum Knight Moves,minimum-knight-moves,Medium,Graph,Week3-20-1197. Minimum Knight Moves
+560,Subarray Sum Equals K,subarray-sum-equals-k,Medium,Array,Week3-21-560. Subarray Sum Equals K
+735,Asteroid Collision,asteroid-collision,Medium,Stack,Week3-22-735. Asteroid Collision
+528,Random Pick with Weight,random-pick-with-weight,Medium,Math,Week3-23-528. Random Pick with Weight
+215,Kth Largest Element in an Array,kth-largest-element-in-an-array,Medium,Heap,Week3-24-215. Kth Largest Element in an Array
+221,Maximal Square,maximal-square,Medium,Dynamic Programming,Week3-25-221. Maximal Square
+48,Rotate Image,rotate-image,Medium,Matrix,Week3-26-48. Rotate Image
+103,Binary Tree Zigzag Level Order Traversal,binary-tree-zigzag-level-order-traversal,Medium,Binary Tree,Week3-27-103. Binary Tree Zigzag Level Order Traversal
+362,Design Hit Counter,design-hit-counter,Medium,Queue,Week3-28-362. Design Hit Counter
+437,Path Sum III,path-sum-iii,Medium,Binary Tree,Week3-29-437. Path Sum III
+50,"Pow(x, n)",powx-n,Medium,Math,"Week3-30-50. Pow(x, n)"
+74,Search a 2D Matrix,search-a-2d-matrix,Medium,Binary Search,Week3-31-74. Search a 2D Matrix
+179,Largest Number,largest-number,Medium,String,Week3-32-179. Largest Number
+91,Decode Ways,decode-ways,Medium,Dynamic Programming,Week3-33-91. Decode Ways
+253,Meeting Rooms II,meeting-rooms-ii,Medium,Array,Week3-34-253. Meeting Rooms II
+7,Reverse Integer,reverse-integer,Medium,Math,Week3-35-7. Reverse Integer
+73,Set Matrix Zeroes,set-matrix-zeroes,Medium,Matrix,Week3-36-73. Set Matrix Zeroes
+143,Reorder List,reorder-list,Medium,Linked List,Week3-37-143. Reorder List
+271,Encode and Decode Strings,encode-and-decode-strings,Medium,String,Week3-38-271. Encode and Decode Strings
+787,Cheapest Flights Within K Stops,cheapest-flights-within-k-stops,Medium,Graph,Week3-39-787. Cheapest Flights Within K Stops
+863,All Nodes Distance K in Binary Tree,all-nodes-distance-k-in-binary-tree,Medium,Binary Tree,Week3-40-863. All Nodes Distance K in Binary Tree
+16,3Sum Closest,3sum-closest,Medium,Array,Week3-41-16. 3Sum Closest
+61,Rotate List,rotate-list,Medium,Linked List,Week3-42-61. Rotate List
+153,Find Minimum in Rotated Sorted Array,find-minimum-in-rotated-sorted-array,Medium,Binary Search,Week3-43-153. Find Minimum in Rotated Sorted Array
+227,Basic Calculator II,basic-calculator-ii,Medium,Stack,Week3-44-227. Basic Calculator II
+329,Longest Increasing Path in a Matrix,longest-increasing-path-in-a-matrix,Hard,Graph,Week3-45-329. Longest Increasing Path in a Matrix
+32,Longest Valid Parentheses,longest-valid-parentheses,Hard,Stack,Week3-46-32. Longest Valid Parentheses
+588,Design In-Memory File System,design-in-memory-file-system,Hard,Trie,Week3-47-588. Design In-Memory File System
+759,Employee Free Time,employee-free-time,Hard,Array,Week3-48-759. Employee Free Time
+212,Word Search II,word-search-ii,Hard,Graph,Week3-49-212. Word Search II
+269,Alien Dictionary,alien-dictionary,Hard,Graph,Week3-50-269. Alien Dictionary
+815,Bus Routes,bus-routes,Hard,Graph,Week3-51-815. Bus Routes
+239,Sliding Window Maximum,sliding-window-maximum,Hard,Array,Week3-52-239. Sliding Window Maximum
+377,Combination Sum IV,combination-sum-iv,Medium,Dynamic Programming,Week4-01-377. Combination Sum IV
+380,Insert Delete GetRandom O(1),insert-delete-getrandom-o1,Medium,Hash Table,Week4-02-380. Insert Delete GetRandom O(1)
+435,Non-overlapping Intervals,non-overlapping-intervals,Medium,Array,Week4-03-435. Non-overlapping Intervals
+336,Palindrome Pairs,palindrome-pairs,Hard,String,Week4-04-336. Palindrome Pairs
+25,Reverse Nodes in k-Group,reverse-nodes-in-k-group,Hard,Linked List,Week4-05-25. Reverse Nodes in k-Group
+37,Sudoku Solver,sudoku-solver,Hard,Matrix,Week4-06-37. Sudoku Solver
+41,First Missing Positive,first-missing-positive,Hard,Hash Table,Week4-07-41. First Missing Positive
+51,N-Queens,n-queens,Hard,Recursion,Week4-08-51. N-Queens
+632,Smallest Range Covering Elements from K Lists,smallest-range-covering-elements-from-k-lists,Hard,Heap,Week4-09-632. Smallest Range Covering Elements from K Lists

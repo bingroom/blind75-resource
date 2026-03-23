@@ -1,61 +1,21 @@
 # Longest Common Subsequence
 
-**Topic:** Dynamic Programming
+**Topic:** Unknown
+- **LeetCode 連結:** [0. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+- **難度:** Medium
 
-- **LeetCode:** [1250. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
-- **NeetCode:** [Blind 75](https://neetcode.io/problems?list=blind75)
+## 題目描述
 
-## Description
+給定兩個字串，找出它們的最長公共子序列的長度。子序列不要求連續，但需保持相對順序。
 
-Given two strings `text1` and `text2`, return *the length of their longest **common subsequence**. *If there is no **common subsequence**, return `0`.
+## 解題思路
 
-A **subsequence** of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.
+1. 使用動態規劃，dp[i][j] 表示 text1 前 i 個字元與 text2 前 j 個字元的 LCS 長度。
+2. 若 text1[i-1] == text2[j-1]，則 dp[i][j] = dp[i-1][j-1] + 1。
+3. 否則 dp[i][j] = max(dp[i-1][j], dp[i][j-1])。
+4. 用一維陣列滾動優化空間複雜度。
 
-	- For example, `"ace"` is a subsequence of `"abcde"`.
-
-A **common subsequence** of two strings is a subsequence that is common to both strings.
-
- 
-
-**Example 1:**
-
-```
-
-Input: text1 = "abcde", text2 = "ace" 
-Output: 3  
-Explanation: The longest common subsequence is "ace" and its length is 3.
-
-```
-
-**Example 2:**
-
-```
-
-Input: text1 = "abc", text2 = "abc"
-Output: 3
-Explanation: The longest common subsequence is "abc" and its length is 3.
-
-```
-
-**Example 3:**
-
-```
-
-Input: text1 = "abc", text2 = "def"
-Output: 0
-Explanation: There is no such common subsequence, so the result is 0.
-
-```
-
- 
-
-**Constraints:**
-
-	- `1 <= text1.length, text2.length <= 1000`
-
-	- `text1` and `text2` consist of only lowercase English characters.
-
-## Solution
+## 程式碼
 
 ```python
 # LeetCode 1143. Longest Common Subsequence
@@ -79,18 +39,9 @@ class Solution:
                     dp[j] = max(dp[j], dp[j - 1])
                 prev = tmp
         return dp[n]
-
 ```
 
-## 思路
+## 複雜度分析
 
-- **二維 DP：** `dp[i][j]` = text1[:i] 與 text2[:j] 的 LCS。若 text1[i-1]==text2[j-1] 則 dp[i][j]=dp[i-1][j-1]+1，否則 dp[i][j]=max(dp[i-1][j], dp[i][j-1])。可壓成 O(n) 空間。
-
-## 時間 / 空間複雜度
-
-- **時間:** O(m×n)。
-- **空間:** O(min(m,n))。
-
-## 相關閱讀
-
-- **演算法:** Dynamic Programming、經典 LCS
+- **時間複雜度:** O(m×n)。
+- **空間複雜度:** O(min(m,n))。
