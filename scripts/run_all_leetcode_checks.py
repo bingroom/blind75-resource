@@ -17,18 +17,38 @@ ROOT = os.path.dirname(SCRIPT_DIR)
 SOLUTIONS_DIR = os.path.join(ROOT, "solutions")
 
 # 路徑（相對於專案 ROOT）-> LeetCode 題目 slug 覆寫（若資料夾名與 LeetCode 不一致）
-SLUG_OVERRIDES = {
-    "solutions/tree/13-add-and-search-word-data-structure-design": "design-add-and-search-words-data-structure",
-    "solutions/tree/design-add-and-search-words-data-structure": "design-add-and-search-words-data-structure",
-    "solutions/graph/01-matrix": "01-matrix",
+SLUG_OVERRIDES = {}
+
+# Name -> slug mapping for names that don't slugify cleanly
+NAME_TO_SLUG = {
+    "Design Add and Search Words Data Structure": "design-add-and-search-words-data-structure",
+    "01 Matrix": "01-matrix",
+    "3Sum": "3sum",
+    "3Sum Closest": "3sum-closest",
+    "Pow(x, n)": "powx-n",
+    "N-Queens": "n-queens",
+    "String to Integer": "string-to-integer-atoi",
+    "Implement Trie Prefix Tree": "implement-trie-prefix-tree",
+    "Insert Delete GetRandom O(1)": "insert-delete-getrandom-o1",
+    "Reverse Nodes in k-Group": "reverse-nodes-in-k-group",
+    "Number of Connected Components": "number-of-connected-components-in-an-undirected-graph",
+    "Smallest Range Covering Elements from K Lists": "smallest-range-covering-elements-from-k-lists",
 }
 
 
 def slug_from_path(rel_path: str) -> str:
-    """e.g. array/01-two-sum/solution.py -> two-sum"""
+    """e.g. array/Week1-01.Two Sum/solution.py -> two-sum"""
     parts = rel_path.replace("\\", "/").split("/")
     if len(parts) >= 2:
         dirname = parts[-2]
+        # New format: "Week1-01.Two Sum" or "Extra.House Robber II"
+        m = re.match(r"^(?:Week\d+-\d+|Extra)\.(.+)$", dirname)
+        if m:
+            name = m.group(1)
+            if name in NAME_TO_SLUG:
+                return NAME_TO_SLUG[name]
+            return name.lower().replace(" ", "-").replace("(", "").replace(")", "").replace(",", "")
+        # Old format: "01-two-sum"
         m = re.match(r"^\d+-(.+)$", dirname)
         return m.group(1) if m else dirname
     return ""
