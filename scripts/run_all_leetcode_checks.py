@@ -37,12 +37,12 @@ NAME_TO_SLUG = {
 
 
 def slug_from_path(rel_path: str) -> str:
-    """e.g. array/Week1-01.Two Sum/solution.py -> two-sum"""
+    """e.g. Week01-01. Two Sum/solution.py -> two-sum"""
     parts = rel_path.replace("\\", "/").split("/")
     if len(parts) >= 2:
         dirname = parts[-2]
-        # New format: "Week1-01.Two Sum" or "Extra.House Robber II"
-        m = re.match(r"^(?:Week\d+-\d+|Extra)\.(.+)$", dirname)
+        # Format: "Week01-01. Two Sum" or "Extra.House Robber II"
+        m = re.match(r"^(?:Week\d+-\d+\.\s*|Extra\.)(.+)$", dirname)
         if m:
             name = m.group(1)
             if name in NAME_TO_SLUG:
