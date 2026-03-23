@@ -1,13 +1,122 @@
 {
-  "total": 1,
-  "ac_count": 0,
-  "ac": [],
-  "fail_count": 1,
+  "total": 25,
+  "ac_count": 12,
+  "ac": [
+    {
+      "rel": "solutions/array/move-zeroes/solution.py",
+      "slug": "move-zeroes"
+    },
+    {
+      "rel": "solutions/backtracking/combination-sum/solution.py",
+      "slug": "combination-sum"
+    },
+    {
+      "rel": "solutions/bit-manipulation/single-number/solution.py",
+      "slug": "single-number"
+    },
+    {
+      "rel": "solutions/graph/01-matrix/solution.py",
+      "slug": "01-matrix"
+    },
+    {
+      "rel": "solutions/graph/flood-fill/solution.py",
+      "slug": "flood-fill"
+    },
+    {
+      "rel": "solutions/hashing/subarray-sum-equals-k/solution.py",
+      "slug": "subarray-sum-equals-k"
+    },
+    {
+      "rel": "solutions/linked-list/add-two-numbers/solution.py",
+      "slug": "add-two-numbers"
+    },
+    {
+      "rel": "solutions/sorting/kth-largest-element-in-an-array/solution.py",
+      "slug": "kth-largest-element-in-an-array"
+    },
+    {
+      "rel": "solutions/stack/asteroid-collision/solution.py",
+      "slug": "asteroid-collision"
+    },
+    {
+      "rel": "solutions/stack/largest-rectangle-in-histogram/solution.py",
+      "slug": "largest-rectangle-in-histogram"
+    },
+    {
+      "rel": "solutions/string/string-to-integer-atoi/solution.py",
+      "slug": "string-to-integer-atoi"
+    },
+    {
+      "rel": "solutions/tree/convert-sorted-array-to-binary-search-tree/solution.py",
+      "slug": "convert-sorted-array-to-binary-search-tree"
+    }
+  ],
+  "fail_count": 13,
   "fail": [
     {
-      "rel": "solutions/tree/13-add-and-search-word-data-structure-design/solution.py",
-      "slug": "add-and-search-word-data-structure-design",
-      "output": "題目 slug: add-and-search-word-data-structure-design\n取得題目詳情...\nTraceback (most recent call last):\n  File \"/Users/bingroom/Documents/coding/blind75-resource/scripts/leetcode_submit.py\", line 220, in <module>\n    main()\n  File \"/Users/bingroom/Documents/coding/blind75-resource/scripts/leetcode_submit.py\", line 172, in main\n    problem = get_problem_detail(slug, session, csrf)\n  File \"/Users/bingroom/Documents/coding/blind75-resource/scripts/leetcode_submit.py\", line 99, in get_problem_detail\n    raise RuntimeError(f\"題目不存在: {title_slug}\")\nRuntimeError: 題目不存在: add-and-search-word-data-structure-design\n"
+      "rel": "solutions/design/design-hit-counter/solution.py",
+      "slug": "design-hit-counter",
+      "output": "題目 slug: design-hit-counter\n取得題目詳情...\n題目: Design Hit Counter (questionId=362)\n提交中...\nTraceback (most recent call last):\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 364, in <module>\n    main()\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 315, in main\n    submission_id = submit_solution(slug, question_id, code, args.lang, session, csrf)\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 240, in submit_solution\n    {\"lang\": lang, \"typed_code\": code, \"question_id\": question_id},\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 212, in _request\n    return json.loads(resp.read().decode())\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/__init__.py\", line 348, in loads\n    return _default_decoder.decode(s)\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+    },
+    {
+      "rel": "solutions/design/design-in-memory-file-system/solution.py",
+      "slug": "design-in-memory-file-system",
+      "output": "題目 slug: design-in-memory-file-system\n取得題目詳情...\n題目: Design In-Memory File System (questionId=588)\n提交中...\nTraceback (most recent call last):\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 364, in <module>\n    main()\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 315, in main\n    submission_id = submit_solution(slug, question_id, code, args.lang, session, csrf)\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 240, in submit_solution\n    {\"lang\": lang, \"typed_code\": code, \"question_id\": question_id},\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 212, in _request\n    return json.loads(resp.read().decode())\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/__init__.py\", line 348, in loads\n    return _default_decoder.decode(s)\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+    },
+    {
+      "rel": "solutions/graph/alien-dictionary/solution.py",
+      "slug": "alien-dictionary",
+      "output": "題目 slug: alien-dictionary\n取得題目詳情...\n題目: Alien Dictionary (questionId=269)\n提交中...\nTraceback (most recent call last):\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 364, in <module>\n    main()\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 315, in main\n    submission_id = submit_solution(slug, question_id, code, args.lang, session, csrf)\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 240, in submit_solution\n    {\"lang\": lang, \"typed_code\": code, \"question_id\": question_id},\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 212, in _request\n    return json.loads(resp.read().decode())\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/__init__.py\", line 348, in loads\n    return _default_decoder.decode(s)\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+    },
+    {
+      "rel": "solutions/graph/graph-valid-tree/solution.py",
+      "slug": "graph-valid-tree",
+      "output": "題目 slug: graph-valid-tree\n取得題目詳情...\n題目: Graph Valid Tree (questionId=261)\n提交中...\nTraceback (most recent call last):\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 364, in <module>\n    main()\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 315, in main\n    submission_id = submit_solution(slug, question_id, code, args.lang, session, csrf)\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 240, in submit_solution\n    {\"lang\": lang, \"typed_code\": code, \"question_id\": question_id},\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 212, in _request\n    return json.loads(resp.read().decode())\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/__init__.py\", line 348, in loads\n    return _default_decoder.decode(s)\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+    },
+    {
+      "rel": "solutions/graph/minimum-knight-moves/solution.py",
+      "slug": "minimum-knight-moves",
+      "output": "題目 slug: minimum-knight-moves\n取得題目詳情...\n題目: Minimum Knight Moves (questionId=1142)\n提交中...\nTraceback (most recent call last):\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 364, in <module>\n    main()\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 315, in main\n    submission_id = submit_solution(slug, question_id, code, args.lang, session, csrf)\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 240, in submit_solution\n    {\"lang\": lang, \"typed_code\": code, \"question_id\": question_id},\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 212, in _request\n    return json.loads(resp.read().decode())\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/__init__.py\", line 348, in loads\n    return _default_decoder.decode(s)\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+    },
+    {
+      "rel": "solutions/graph/number-of-connected-components-in-an-undirected-graph/solution.py",
+      "slug": "number-of-connected-components-in-an-undirected-graph",
+      "output": "題目 slug: number-of-connected-components-in-an-undirected-graph\n取得題目詳情...\n題目: Number of Connected Components in an Undirected Graph (questionId=323)\n提交中...\nTraceback (most recent call last):\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 364, in <module>\n    main()\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 315, in main\n    submission_id = submit_solution(slug, question_id, code, args.lang, session, csrf)\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 240, in submit_solution\n    {\"lang\": lang, \"typed_code\": code, \"question_id\": question_id},\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 212, in _request\n    return json.loads(resp.read().decode())\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/__init__.py\", line 348, in loads\n    return _default_decoder.decode(s)\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+    },
+    {
+      "rel": "solutions/graph/shortest-path-to-get-food/solution.py",
+      "slug": "shortest-path-to-get-food",
+      "output": "題目 slug: shortest-path-to-get-food\n取得題目詳情...\n題目: Shortest Path to Get Food (questionId=550)\n提交中...\nTraceback (most recent call last):\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 364, in <module>\n    main()\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 315, in main\n    submission_id = submit_solution(slug, question_id, code, args.lang, session, csrf)\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 240, in submit_solution\n    {\"lang\": lang, \"typed_code\": code, \"question_id\": question_id},\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 212, in _request\n    return json.loads(resp.read().decode())\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/__init__.py\", line 348, in loads\n    return _default_decoder.decode(s)\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+    },
+    {
+      "rel": "solutions/linked-list/reverse-nodes-in-k-group/solution.py",
+      "slug": "reverse-nodes-in-k-group",
+      "output": "題目 slug: reverse-nodes-in-k-group\n取得題目詳情...\n題目: Reverse Nodes in k-Group (questionId=25)\n提交中...\nTraceback (most recent call last):\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 364, in <module>\n    main()\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 315, in main\n    submission_id = submit_solution(slug, question_id, code, args.lang, session, csrf)\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 240, in submit_solution\n    {\"lang\": lang, \"typed_code\": code, \"question_id\": question_id},\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 211, in _request\n    with urllib.request.urlopen(req, timeout=15) as resp:\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/urllib/request.py\", line 222, in urlopen\n    return opener.open(url, data, timeout)\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/urllib/request.py\", line 531, in open\n    response = meth(req, response)\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/urllib/request.py\", line 641, in http_response\n    'http', request, response, code, msg, hdrs)\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/urllib/request.py\", line 569, in error\n    return self._call_chain(*args)\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/urllib/request.py\", line 503, in _call_chain\n    result = func(*args)\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/urllib/request.py\", line 649, in http_error_default\n    raise HTTPError(req.full_url, code, msg, hdrs, fp)\nurllib.error.HTTPError: HTTP Error 429: Too Many Requests\n"
+    },
+    {
+      "rel": "solutions/sorting/employee-free-time/solution.py",
+      "slug": "employee-free-time",
+      "output": "題目 slug: employee-free-time\n取得題目詳情...\n題目: Employee Free Time (questionId=761)\n提交中...\nTraceback (most recent call last):\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 364, in <module>\n    main()\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 315, in main\n    submission_id = submit_solution(slug, question_id, code, args.lang, session, csrf)\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 240, in submit_solution\n    {\"lang\": lang, \"typed_code\": code, \"question_id\": question_id},\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 212, in _request\n    return json.loads(resp.read().decode())\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/__init__.py\", line 348, in loads\n    return _default_decoder.decode(s)\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+    },
+    {
+      "rel": "solutions/sorting/meeting-rooms-ii/solution.py",
+      "slug": "meeting-rooms-ii",
+      "output": "題目 slug: meeting-rooms-ii\n取得題目詳情...\n題目: Meeting Rooms II (questionId=253)\n提交中...\nTraceback (most recent call last):\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 364, in <module>\n    main()\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 315, in main\n    submission_id = submit_solution(slug, question_id, code, args.lang, session, csrf)\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 240, in submit_solution\n    {\"lang\": lang, \"typed_code\": code, \"question_id\": question_id},\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 212, in _request\n    return json.loads(resp.read().decode())\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/__init__.py\", line 348, in loads\n    return _default_decoder.decode(s)\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+    },
+    {
+      "rel": "solutions/sorting/meeting-rooms/solution.py",
+      "slug": "meeting-rooms",
+      "output": "題目 slug: meeting-rooms\n取得題目詳情...\n題目: Meeting Rooms (questionId=252)\n提交中...\nTraceback (most recent call last):\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 364, in <module>\n    main()\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 315, in main\n    submission_id = submit_solution(slug, question_id, code, args.lang, session, csrf)\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 240, in submit_solution\n    {\"lang\": lang, \"typed_code\": code, \"question_id\": question_id},\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 212, in _request\n    return json.loads(resp.read().decode())\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/__init__.py\", line 348, in loads\n    return _default_decoder.decode(s)\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+    },
+    {
+      "rel": "solutions/string/encode-and-decode-strings/solution.py",
+      "slug": "encode-and-decode-strings",
+      "output": "題目 slug: encode-and-decode-strings\n取得題目詳情...\n題目: Encode and Decode Strings (questionId=271)\n提交中...\nTraceback (most recent call last):\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 364, in <module>\n    main()\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 315, in main\n    submission_id = submit_solution(slug, question_id, code, args.lang, session, csrf)\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 240, in submit_solution\n    {\"lang\": lang, \"typed_code\": code, \"question_id\": question_id},\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 212, in _request\n    return json.loads(resp.read().decode())\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/__init__.py\", line 348, in loads\n    return _default_decoder.decode(s)\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+    },
+    {
+      "rel": "solutions/tree/inorder-successor-in-bst/solution.py",
+      "slug": "inorder-successor-in-bst",
+      "output": "題目 slug: inorder-successor-in-bst\n取得題目詳情...\n題目: Inorder Successor in BST (questionId=285)\n提交中...\nTraceback (most recent call last):\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 364, in <module>\n    main()\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 315, in main\n    submission_id = submit_solution(slug, question_id, code, args.lang, session, csrf)\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 240, in submit_solution\n    {\"lang\": lang, \"typed_code\": code, \"question_id\": question_id},\n  File \"/Users/bingroom/Documents/Coding/blind75-resource/scripts/leetcode_submit.py\", line 212, in _request\n    return json.loads(resp.read().decode())\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/__init__.py\", line 348, in loads\n    return _default_decoder.decode(s)\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n  File \"/Users/bingroom/.pyenv/versions/3.7.12/lib/python3.7/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
     }
   ]
 }

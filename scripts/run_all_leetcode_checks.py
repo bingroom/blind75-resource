@@ -19,6 +19,8 @@ SOLUTIONS_DIR = os.path.join(ROOT, "solutions")
 # 路徑（相對於專案 ROOT）-> LeetCode 題目 slug 覆寫（若資料夾名與 LeetCode 不一致）
 SLUG_OVERRIDES = {
     "solutions/tree/13-add-and-search-word-data-structure-design": "design-add-and-search-words-data-structure",
+    "solutions/tree/design-add-and-search-words-data-structure": "design-add-and-search-words-data-structure",
+    "solutions/graph/01-matrix": "01-matrix",
 }
 
 
